@@ -14,8 +14,10 @@
 	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
 	<!-- Bootstrap: local loading (otherwise not working on firefox) -->
 	<link href="{{ .Site.BaseURL }}css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- <\!-- Icons -\-> -->
+	<!-- <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"> -->
 	<!-- Icons -->
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="{{ .Site.BaseURL }}css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	<!-- Custom styles -->
@@ -37,9 +39,10 @@
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" src="{{ .Site.BaseURL }}images/thibaut-jombart.jpg" alt="">
 			<span class="title">{{ .Site.Params.name }}</span>
+			<!-- <span class="tagline">{{ .Site.Params.address }}</span> -->
 			<span class="tagline">{{ .Site.Params.description }}<br>
-				<a href="">{{ .Site.Params.email }}</a>
-            </span>
+			  <a href="">{{ .Site.Params.email }}</a>
+			</span>
 		</h1>
 	</div>
 

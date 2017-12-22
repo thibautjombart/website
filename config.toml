@@ -8,7 +8,7 @@ publishDir = "docs"
 name = "Thibaut Jombart"
 description = "Lecturer in Outbreak Analytics"
 email = "thibautjombart@gmail.com"
-# phone = "+234 23 9873237"
+phone = "0044 (0)20 7594 3658"
 address = "Department of Infectious Disease Epidemiology, Imperial College London, Norfolk Place London W2 1PG"
 year = 2017
 background = ""
@@ -30,10 +30,10 @@ footerEnableFormWidget = false
 name = "home"
 url = "/"
 weight = 1
-[[menu.main]]
-name = "blog"
-url = "/post/"
-weight = 5
+# [[menu.main]]
+# name = "blog"
+# url = "/post/"
+# weight = 5
 
 # [params.disqus]
 #     site = "hugo-initio-site.disqus.com"

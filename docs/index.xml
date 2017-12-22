@@ -44,6 +44,22 @@ web of science:
     </item>
     
     <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Email This is the best way to contact me: thibautjombart@gmail.com.
+Address MRC Centre for Outbreak Analysis and Modelling
+Department of Infectious Disease Epidemiology
+Imperial College London
+St Mary’s Campus, Norfolk Place
+London W2 1PG
+United Kingdom
+Phone 0044 (0)20 7594 3658</description>
+    </item>
+    
+    <item>
       <title>Application development</title>
       <link>/service/service3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

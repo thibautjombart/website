@@ -27,6 +27,14 @@
 }
 
 
+em {
+    color: #6666cc;
+    font-style:normal;
+}
+
+strong {
+    font-weight:bold;
+}
 
 
 html {
@@ -294,6 +302,16 @@ a:hover {
 }
 #head .tagline a {
   color: #5E5E5E;
+}
+#head .address {
+  display: block;
+  font-size: 12px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #7C7C7C;
+  padding: 5px;
+  
+  /* margin: 5px 0 0; */
 }
 .home #head {
   padding: 90px 0;
