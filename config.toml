@@ -9,11 +9,11 @@ name = "Thibaut Jombart"
 description = "Lecturer in Outbreak Analytics"
 email = "thibautjombart@gmail.com"
 # phone = "+234 23 9873237"
-# address = "234 Hidden Pond Road, Ashland City, TN 37015"
+address = "Department of Infectious Disease Epidemiology, Imperial College London, Norfolk Place London W2 1PG"
 year = 2017
 background = ""
 favicon = "images/gt_favicon.png"
-DateForm = "January 2, 2006"
+DateForm = "December 22, 2017"
 
 showSubheader = true
 showServices = false
@@ -21,8 +21,8 @@ showRecentWorks = false
 showDownload = false
 showClients = false
 
-footerEnableContact = false
 footerEnableFollowme = true
+footerEnableContact = false
 footerEnableTextWidget = false
 footerEnableFormWidget = false
 
