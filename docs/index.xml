@@ -6,7 +6,6 @@
     <description>Recent content on Initio - Free, multipurpose html5 template by GetTemplate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,23 +21,26 @@ Outbreak response analytics I am using the term outbreak response analytics to r
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/post/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Group</title>
+      <link>/group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/group/</guid>
+      <description>Amrish Baidjoe Amrish joined in September 2017. He is a field epidemiologist, virologist, former EPIET fellow and current president of the EPIET Alumni network. He works on outbreak response and humanitarian crises, develops training material for outbreak analysis, and runs workshops.
+Martin Hinsch Martin joined in March 2016. He is a theoretical biologist and computer programmer. He works on developing new methods for inferring the origins of foodborne outbreaks by combining data on food distribution networks and whole genome sequences of pathogens.</description>
     </item>
     
     <item>
-      <title>Vivamus Lacus Mauris</title>
-      <link>/post/vivamus-lacus-mauris/</link>
-      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/vivamus-lacus-mauris/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
+      <guid>/publications/</guid>
+      <description>As of November 2017, I have decided to promote open, transparent publishing, i.e. publishing in which:
+ papers are freely available to the community reviews are fully published referees are explicitly named  I no longer review for, edit for, or submit to journals which do no fulfil these criteria.
+Statistics These were last updated on the 22-12-2017.
+web of science:
+ citations: 6,097 h-index: 26  Google scholar:</description>
     </item>
     
     <item>

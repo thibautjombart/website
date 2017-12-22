@@ -2,7 +2,7 @@
 menu = "main"
 title = "About"
 type = "about"
-weight = 10
+weight = 2
 +++
 
 I am a researcher in <em>outbreak response analytics</em>, with a background in
