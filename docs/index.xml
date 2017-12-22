@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Initio - Free, multipurpose html5 template by GetTemplate</title>
-    <link>/</link>
+    <link>https://thibautjombart.netlify.com/</link>
     <description>Recent content on Initio - Free, multipurpose html5 template by GetTemplate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thibautjombart.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://thibautjombart.netlify.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://thibautjombart.netlify.com/about/</guid>
       <description>I am a researcher in outbreak response analytics, with a background in biostatistics, population genetics, and R programming. I currently work as a lecturer in the Department of Infectious Disease Epidemiology at Imperial College London. My research focusses on developing new methodologies and tools for understanding how infectious diseases spread, and how we can control them.
 You can find my CV here, and my PhD thesis (in French) there.</description>
     </item>
     
     <item>
       <title>Group</title>
-      <link>/group/</link>
+      <link>https://thibautjombart.netlify.com/group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/group/</guid>
+      <guid>https://thibautjombart.netlify.com/group/</guid>
       <description>Amrish Baidjoe Amrish joined in September 2017. He is a field epidemiologist, virologist, former EPIET fellow and current president of the EPIET Alumni network. He works on outbreak response and humanitarian crises, develops training material for outbreak analysis, and runs workshops.
 Martin Hinsch Martin joined in March 2016. He is a theoretical biologist and computer programmer. He works on developing new methods for inferring the origins of foodborne outbreaks by combining data on food distribution networks and whole genome sequences of pathogens.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publications/</link>
+      <link>https://thibautjombart.netlify.com/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publications/</guid>
+      <guid>https://thibautjombart.netlify.com/publications/</guid>
       <description>As of November 2017, I have decided to promote open, transparent publishing, i.e. publishing in which:
  papers are freely available to the community reviews are fully published referees are explicitly named  I no longer review for, edit for, or submit to journals which do no fulfil these criteria.
 Statistics These were last updated on the 22-12-2017.
@@ -45,10 +45,10 @@ web of science:
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>https://thibautjombart.netlify.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>https://thibautjombart.netlify.com/contact/</guid>
       <description>Email This is the best way to contact me: thibautjombart@gmail.com.
 Address MRC Centre for Outbreak Analysis and Modelling
 Department of Infectious Disease Epidemiology
