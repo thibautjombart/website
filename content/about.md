@@ -5,14 +5,61 @@ type = "about"
 weight = 10
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+I am a researcher in <em>outbreak response analytics</em>, with a background in
+<em>biostatistics</em>, <em>population genetics</em>, and <em>R
+programming</em>. I currently work as a lecturer in the 
+[Department of Infectious Disease Epidemiology](https://www.imperial.ac.uk/school-public-health/infectious-disease-epidemiology/) at 
+[Imperial College London](https://www.imperial.ac.uk/). My research focusses on
+developing new methodologies and tools for understanding how infectious diseases
+spread, and how we can control them.
 
-![about](../images/mac.jpg)
 
-### Necessitatibus
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+### Outbreak response analytics
 
-### Fugit, laboriosam
+I am using the term <em>outbreak response analytics</em> to refer to a holistic
+approach to outbreak data analysis. Rather than focussing solely on infectious
+disease modelling techniques, I like to emphasise other aspects of epidemics
+analysis, which are underestimated at times. This includes not glamorous but
+rather essential data cleaning (with reproducible, transparent, auditable
+approaches), advanced <em>data visualisation</em> tools including interactive graphics,
+and various quantitative approaches for data analysis including
+<em>frequentist/Bayesian/non-parametric statistics</em>,
+<em>exploratory/factorial/clustering methods</em>, <em>graph theory</em>, with
+some increasing interest in <em>machine learning</em> techniques.
 
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+
+
+
+### RECON: the R Epidemics Consortium
+
+In September 2016, I have create the <em>R Epidemics Consortium</em>
+([https://www.repidemicsconsortium.org](https://www.repidemicsconsortium.org)),
+an international network of experts in infectious disease modelling, public
+health, and software development interesting in developing the next generation
+of tools for disease outbreak analysis using the [R software](https://www.r-project.org/).
+
+
+
+
+### RECON learn
+
+In December 2017, I have created [RECON learn](https://reconlearn.netlify.com/)
+a platform for sharing free, open training material for epidemics analysis. This
+includes a collection of lectures, practicals and case studies, most of which
+are distributed under [CC-BY license](https://creativecommons.org/licenses/by/3.0/).
+
+
+
+
+### Statistical genetics
+
+My earlier research was mostly dedicated to developing multivariate approaches
+(factorial methods, clustering algorithms), for exploring genetic data. I am
+still involved in some of these aspects. I am the author of 
+[adegenet](http://adegenet.r-forge.r-project.org/), a 
+[popular](https://github.com/thibautjombart/adegenet/) R package for genetic/genomic data analysis. 
+With [Zhian Kamvar](https://plantpathology.unl.edu/zhian-n-kamvar), I am also running a course on 
+[data science for population genetic](https://www.prstatistics.com/course/reproducible-data-science-for-population-genetics-rdpg01/) 
+with [PR statistics](https://www.prstatistics.com/).
+
