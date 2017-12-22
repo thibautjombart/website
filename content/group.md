@@ -6,46 +6,68 @@ weight = 3
 +++
 
 
+<div class="member">
+<img src="/images/amrish-baidjoe.jpg"> <font class="title">Amrish Baidjoe</font>
 
-### Amrish Baidjoe
-
+<p>
 Amrish joined in September 2017. He is a field epidemiologist, virologist,
-former [EPIET](https://ecdc.europa.eu/en/epiet-euphem) fellow and current
-president of the [EPIET Alumni network](http://epietalumni.net/). He works on
+former <a href="https://ecdc.europa.eu/en/epiet-euphem">EPIET</a> fellow and current
+president of the <a href="http://epietalumni.net/">EPIET Alumni network</a>. He works on
 outbreak response and humanitarian crises, develops training material for
 outbreak analysis, and runs workshops.
+</p>
+
+</div>
 
 
 
-### Martin Hinsch
+<div class="member">
+<img src="/images/martin-hinsch.jpg"> <font class="title">Martin Hinsch</font>
 
+<p>
 Martin joined in March 2016. He is a theoretical biologist and computer
 programmer. He works on developing new methods for inferring the origins of
 foodborne outbreaks by combining data on food distribution networks and whole
 genome sequences of pathogens.
+</p>
+
+</div>
 
 
 
-### Finlay Campbell, PhD student
 
+<div class="member">
+<img src="/images/finlay-campbell.jpg"> <font class="title">Finlay Campbell</font>
+
+<p>
 Finlay joined in February 2016 as a Master student, and started his PhD in
-September 2016, in a co-supervision with 
-[Neil Ferguson](https://www.imperial.ac.uk/people/neil.ferguson) 
-and [Anne Cori](http://www.imperial.ac.uk/people/a.cori). 
+September 2016, in a co-supervision with <a href="https://www.imperial.ac.uk/people/neil.ferguson">
+Neil Ferguson</a>
+and <a href="http://www.imperial.ac.uk/people/a.cori">Anne Cori</a>. 
 His work focusses on the development of new evidence synthesis
 approaches for investigating outbreaks and reconstructing transmission trees
 (who infects whom?), implemented in the R package 
-[outbreaker2](http://www.repidemicsconsortium.org/outbreaker2/).
+<a href="http://www.repidemicsconsortium.org/outbreaker2">outbreaker2</a>.
+
+</p>
+
+</div>
 
 
 
 
-### Amy Dighe, PhD student
+<div class="member">
+<img src="/images/amy-dighe.jpg"> <font class="title">Amy Dighe</font>
 
-Amy started her PhD in September 2017, in a co-supervision with [Neil
-Ferguson](https://www.imperial.ac.uk/people/neil.ferguson). Her work is
-dedicated to modelling the dynamics of Middle-East Respiratory Syndrome
+<p>
+Amy started her PhD in September 2017, in a co-supervision with <a
+href="https://www.imperial.ac.uk/people/neil.ferguson"> Neil Ferguson</a>. Her
+work is dedicated to modelling the dynamics of Middle-East Respiratory Syndrome
 Coronavirus (MERS-CoV) infections, with an emphasis on control strategies.
+
+</p>
+
+</div>
 
 
 
