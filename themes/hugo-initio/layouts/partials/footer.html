@@ -5,10 +5,10 @@
       <div class="col-md-3 widget">
 	<h3 class="widget-title">Contact</h3>
 	<div class="widget-body">
-	  <p>{{ .Site.Params.phone }}<br>
-	    <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
-	    <br>
-	    {{ .Site.Params.address }}
+	  <p><font color="white">{{ .Site.Params.name }}</font><br>
+	    {{ .Site.Params.address }}<br>
+	    {{ .Site.Params.phone }}
+	    <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
 	  </p>
 	</div>
       </div>
@@ -16,7 +16,7 @@
 
       {{ if .Site.Params.footerEnableFollowme }}
       <div class="col-md-3 widget">
-	<h3 class="widget-title">Getting in touch</h3>
+	<h3 class="widget-title">Follow me</h3>
 	<div class="widget-body">
 	  <p class="follow-me-icons">
             {{ range .Site.Params.social }}
@@ -49,36 +49,57 @@
             {{ .Site.Params.address }}
 	  </p>
 	</div>
-      </div>
+      </div>	
       {{ end }}
 
-    </div> <!-- /row of widgets -->
-  </div>
-</footer>
 
-<footer id="underfooter">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-md-6 widget">
+      {{ if .Site.Params.footerEnableCopyrightWidget }}
+      <!-- <div class="col-md-3 widget pull-right" > -->
+      <div class="col-md-3 widget" >
+	<h3 class="widget-title">Legal stuff</h3>
 	<div class="widget-body">
-	  <p>{{ .Site.Params.address }}</p>
-	</div>
-      </div>
-
-      <div class="col-md-6 widget">
-	<div class="widget-body">
-	  <p class="text-right">
+	  <!-- <p class="text-right"> -->
+	  <p>
 	    Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
-	    Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
-            Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+	    Initial Hugo template: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a><br>
+	    Additional design: Thibaut Jombart
+            Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a> and <a href="https://bookdown.org/yihui/blogdown/">blogdown</a>.
           </p>
 	</div>
       </div>
 
+      {{ end }}
+
+      
+      
     </div> <!-- /row of widgets -->
   </div>
 </footer>
+
+<!-- <footer id="underfooter"> -->
+<!--   <div class="container"> -->
+<!--     <div class="row"> -->
+
+<!--       <div class="col-md-6 widget"> -->
+<!--       	<div class="widget-body"> -->
+<!-- 	  <p>{{ .Site.Params.name }}</p> -->
+<!--       	  <p>{{ .Site.Params.address }}</p> -->
+<!--       	</div> -->
+<!--       </div> -->
+
+<!--       <div class="col-md-6 widget"> -->
+<!-- 	<div class="widget-body"> -->
+<!-- 	  <p class="text-right"> -->
+<!-- 	    Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br> -->
+<!-- 	    Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> -  -->
+<!--             Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a> and <a href="https://bookdown.org/yihui/blogdown/">blogdown</a>. -->
+<!--           </p> -->
+<!-- 	</div> -->
+<!--       </div> -->
+
+<!--     </div> <\!-- /row of widgets -\-> -->
+<!--   </div> -->
+<!-- </footer> -->
 
 
 

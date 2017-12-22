@@ -1,5 +1,6 @@
-# Example Site for Hugo Initio Theme
 
-Example Site for Hugo Initio Theme
+# Sources of my website
 
-https://github.com/miguelsimoni/hugo-initio
+For the website itself, go to:
+
+[https://thibautjombart.netlify.com](https://thibautjombart.netlify.com)
