@@ -9,13 +9,13 @@ weight = 3
 <div class="member">
 <img src="/images/amrish-baidjoe.jpg"> <font class="title">Amrish Baidjoe</font>
 
-<p>
-Amrish joined in September 2017. He is a field epidemiologist, virologist,
-former <a href="https://ecdc.europa.eu/en/epiet-euphem">EPIET</a> fellow and current
-president of the <a href="http://epietalumni.net/">EPIET Alumni network</a>. He works on
-outbreak response and humanitarian crises, develops training material for
-outbreak analysis, and runs workshops.
-</p>
+<p> Amrish joined in September 2017. He is a field epidemiologist and
+microbiologist who worked for years on Malaria and <i>Salmonella</i>
+epidemiology, with some substantial experience in virology. A former <a
+href="https://ecdc.europa.eu/en/epiet-euphem">EPIET</a> fellow, Amrish is the
+current president of the <a href="http://epietalumni.net/">EPIET Alumni
+network</a>. He works on outbreak response and humanitarian crises, develops
+training material for outbreak analysis, and runs workshops.  </p>
 
 </div>
 
@@ -24,12 +24,11 @@ outbreak analysis, and runs workshops.
 <div class="member">
 <img src="/images/martin-hinsch.jpg"> <font class="title">Martin Hinsch</font>
 
-<p>
-Martin joined in March 2016. He is a theoretical biologist and computer
-programmer. He works on developing new methods for inferring the origins of
-foodborne outbreaks by combining data on food distribution networks and whole
-genome sequences of pathogens.
-</p>
+<p> Martin joined in March 2016. He is a theoretical biologist, modeller and
+computer programmer. He works on developing <a
+href="https://github.com/mhinsch/rpathsonpaths">new methods</a> for inferring
+the origins of foodborne outbreaks by combining data on food distribution
+networks and whole genome sequences of pathogens.  </p>
 
 </div>
 
