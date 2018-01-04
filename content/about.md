@@ -14,7 +14,7 @@ developing new methodologies and tools for understanding how infectious diseases
 spread, and how we can control them.
 
 
-You can find my CV [here](/data/CV.pdf), and my PhD thesis (in French) [there](/data/thesis.pdf).
+You can find my CV <a href="https://github.com/thibautjombart/cv/raw/master/cv.pdf">here</a>, and my PhD thesis (in French) [there](/data/thesis.pdf).
 
 
 
