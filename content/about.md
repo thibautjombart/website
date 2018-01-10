@@ -19,18 +19,32 @@ You can find my CV <a href="https://github.com/thibautjombart/cv/raw/master/cv.p
 
 
 ### Outbreak response analytics
+I am interested in developing a holistic approach to outbreak data analysis,
+with a strong focus on emergency outbreak response context, in which analytics
+directly inform public health decision making. Beyond infectious disease
+modelling techniques used in academia, I focus on the development of operational
+analysis tools, including reproducible and auditable data cleaning, interactive
+data visualisation tools, and automated report generation systems. On a more
+theoretical side, I am also interested in the estimation of key delay
+distributions (e.g. incubation period, serial interval distribution), and in
+robust estimations of transmissibility and the use of branching processes for
+short term incidence forecasting.
 
-I am using the term <em>outbreak response analytics</em> to refer to a holistic
-approach to outbreak data analysis. Rather than focussing solely on infectious
-disease modelling techniques, I like to emphasise other aspects of epidemics
-analysis, which are underestimated at times. This includes not glamorous but
-rather essential data cleaning (with reproducible, transparent, auditable
-approaches), advanced <em>data visualisation</em> tools including interactive graphics,
-and various quantitative approaches for data analysis including
-<em>frequentist/Bayesian/non-parametric statistics</em>,
-<em>exploratory/factorial/clustering methods</em>, <em>graph theory</em>, with
-some increasing interest in <em>machine learning</em> techniques.
 
+
+### Evidence synthesis approaches for epidemics analysis
+Part of my research focusses on integrating epidemiological and genomic data for
+analysing epidemics. I have pioneered the field of statistical outbreak
+reconstruction by publishing <a
+href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003457">outbreaker</a>
+in 2014, the first tool integrating epidemiological and genomic data for
+inferring who infects whom during an epidemic. I am supervising a PhD student on
+this topic, who carries further the integration of multiple data sources for
+outbreak reconstruction through the development of <a
+href="http://www.repidemicsconsortium.org/outbreaker2/">outbreaker2</a>. I am
+also developing fast, scalable algorithms for outbreak detection by combining
+various type of data including spatial, temporal, and genetic information on
+reported cases.
 
 
 
