@@ -39,7 +39,7 @@ some increasing interest in <em>machine learning</em> techniques.
 In September 2016, I have create the <em>R Epidemics Consortium</em>
 ([https://www.repidemicsconsortium.org](https://www.repidemicsconsortium.org)),
 an international network of experts in infectious disease modelling, public
-health, and software development interesting in developing the next generation
+health, and software developers interested in creating the next generation
 of tools for disease outbreak analysis using the [R software](https://www.r-project.org/).
 
 
