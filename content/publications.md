@@ -23,29 +23,32 @@ These were last updated on the 22-12-2017.
 
 web of science:
 
-- citations: 6,097
+- citations: 6,381
 - h-index: 26
 
 
 
 Google scholar:
 
-- citations: 8,134
-- h-index: 27
-- h10-index: 40
+- citations: 8,574
+- h-index: 28
+- h10-index: 43
 
 
 
 
 ### List of publications
 
-This list was last updated on the 22-12-2017.
+This list was last updated on the 27-02-2018.
 
 <ul>
 	<li>
 <p align="left" style="margin-bottom: 0.28cm; line-height: 100%; page-break-inside: avoid; orphans: 2; widows: 2">
+	Campbell, F., Strang, C., Ferguson, N., Cori, A. &amp; Jombart, T. (2018). When are pathogen genome sequences informative of transmission events? <i>PLoS Pathogens</i> doi:<a href="http://doi.org/10.1186/s12859-017-1988-y"><font color="#0000ff"><u>10.1371/journal.ppat.1006885</u></font></a></p>
+	<li/>
+<p align="left" style="margin-bottom: 0.28cm; line-height: 100%; page-break-inside: avoid; orphans: 2; widows: 2">
 	Montano, V., &amp; Jombart, T. (2017). An Eigenvalue test for
-	spatial principal component analysis.. <i>BMC Bioinformatics</i>,
+	spatial principal component analysis. <i>BMC Bioinformatics</i>,
 	<i>18</i>(1), 562. doi:<a href="http://doi.org/10.1186/s12859-017-1988-y"><font color="#0000ff"><u>10.1186/s12859-017-1988-y</u></font></a></p>
 	<li/>
 <p align="left" style="margin-bottom: 0.28cm; line-height: 100%; orphans: 2; widows: 2">
