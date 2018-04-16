@@ -21,19 +21,6 @@ training material for outbreak analysis, and runs workshops.  </p>
 
 
 
-<div class="member">
-<img src="/images/martin-hinsch.jpg"> <font class="title">Martin Hinsch</font>
-
-<p> Martin joined in March 2016. He is a theoretical biologist, modeller and
-computer programmer. He works on developing <a
-href="https://github.com/mhinsch/rpathsonpaths">new methods</a> for inferring
-the origins of foodborne outbreaks by combining data on food distribution
-networks and whole genome sequences of pathogens.  </p>
-
-</div>
-
-
-
 
 <div class="member">
 <img src="/images/finlay-campbell.jpg"> <font class="title">Finlay Campbell</font>
@@ -90,6 +77,7 @@ Consortium.
 
 ### Alumni
 
+- Martin Hinsch (postdoc, 2017-2018)
 - Tim McMackin (MPH student, 2015-2016)
 - Anil Keshwani (MSc student, co-supervision with Tini Garske, 2015-2016)
 - Lucy Tran (MSc student, co-supervision with Nick Croucher, 2015-2016)
