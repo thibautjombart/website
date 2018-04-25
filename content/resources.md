@@ -27,7 +27,7 @@ praticals, and code gists.
 
 
 <br>
-<br>
+
 
 ## Podcasts
 
@@ -49,7 +49,7 @@ population genetics / statistics.
 
 
 <br>
-<br>
+
 
 
 
@@ -62,3 +62,7 @@ few lectures and practicals in its
 version of the tutorials, check the [github
 wiki](https://github.com/thibautjombart/adegenet/wiki/Tutorials).
 
+
+
+<br>
+<br>
