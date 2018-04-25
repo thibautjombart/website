@@ -53,7 +53,7 @@ population genetics / statistics.
 
 
 
-## The *adegenet* website
+## The adegenet website
 
 While I may not be able to update this website as often as I used to, the
 [adegenet website](http://adegenet.r-forge.r-project.org/) still hosts quite a
