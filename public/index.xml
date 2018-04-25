@@ -30,6 +30,17 @@ You can find my CV here, and my PhD thesis (in French) there.</description>
     </item>
     
     <item>
+      <title>Resources</title>
+      <link>https://thibautjombart.netlify.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://thibautjombart.netlify.com/resources/</guid>
+      <description>RECON learn Most of the training material I currently develop is hosted on the RECON learn platform. This includes lectures, praticals, and code gists.
+Lectures  Introduction to phylogenetics Reproducibility using R Primer on statistical analysis of outbreaks Outbreak reconstruction using outbreaker2  Practicals  Phylogenetics using R Simulated Ebola response 1 Simulated Ebola response 2  
+Podcasts I have started experimenting with podcast in 2018. Most podcasts are under the RECON R tips umbrella, but I also occasionally post other videos, typically population genetics / statistics.</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>https://thibautjombart.netlify.com/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
