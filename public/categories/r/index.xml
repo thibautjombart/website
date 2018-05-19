@@ -11,13 +11,12 @@
     
     
     <item>
-      <title>Simulating the start of an Ebola outbreak</title>
+      <title>Ebola outbreak: what can we say with limited data?</title>
       <link>/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/post/ebola_simulations_2018/</guid>
-      <description>Using data from past outbreak: the serial interval We create a distribution of the serial interval (SI), i.e. the delays between primary and secondary symptom onsets, in Ebola Virus Disease (EVD). We start by converting previously estimates of the mean and standard deviation of the SI (WHO Ebola Response Team (2014) NEJM 371:1481–1495) to the parameters of a Gamma distribution:
-library(epitrix) mu &amp;lt;- 15.3 # mean in days days sigma &amp;lt;- 9.</description>
+      <description>Context On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce. As of the writing time of the post, WHO has published a timeline of counts of cases by dates of reporting, with a total of 27 cases (including confirmed, probable or suspected cases), reported over a period of 10 days (5th - 15th May 2018).</description>
     </item>
     
   </channel>
