@@ -20,6 +20,10 @@ opts_chunk$set(collapse = TRUE)
 
 ## Context
 
+**Disclaimer**: this blog post only represents my views, and not that of my
+  institution or my collaborators.
+  
+
 On the 8th May 2018, the Ministry of Health of the Democratic Republic of the
 Congo (DRC) has
 [notified the WHO](http://www.who.int/csr/don/10-may-2018-ebola-drc/en/) of two
