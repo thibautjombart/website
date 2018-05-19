@@ -1,0 +1,132 @@
+---
+title: "Simulating the start of an Ebola outbreak"
+author: Thibaut Jombart
+date: "19 May, 2018"
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+
+<div id="using-data-from-past-outbreak-the-serial-interval" class="section level1">
+<h1>Using data from past outbreak: the serial interval</h1>
+<p>We create a distribution of the serial interval (SI), i.e. the delays between primary and secondary symptom onsets, in Ebola Virus Disease (EVD). We start by converting previously estimates of the mean and standard deviation of the SI (WHO Ebola Response Team (2014) NEJM 371:1481–1495) to the parameters of a Gamma distribution:</p>
+<pre class="r"><code>library(epitrix)
+
+mu &lt;- 15.3 # mean in days days
+sigma &lt;- 9.3 # standard deviation in days
+cv &lt;- sigma/mu # coefficient of variation
+cv
+## [1] 0.6078431
+param &lt;- gamma_mucv2shapescale(mu, cv) # convertion to Gamma parameters
+param
+## $shape
+## [1] 2.706556
+## 
+## $scale
+## [1] 5.652941</code></pre>
+<p>The <em>shape</em> and <em>scale</em> are parameters of a Gamma distribution we can use to generate delays. However, delays are typically reported per days, which implies a discretisation (from continuous time to discrete numbers). We use the package <a href="https://github.com/reconhub/distcrete"><em>distcrete</em></a> to achieve this discretisation:</p>
+<pre class="r"><code>
+si &lt;- distcrete::distcrete(&quot;gamma&quot;, interval = 1,
+               shape = param$shape,
+               scale = param$scale, w = 0)
+si
+## A discrete distribution
+##   name: gamma
+##   parameters:
+##     shape: 2.70655567117586
+##     scale: 5.65294117647059
+
+plot(0:60, si$d(0:60), type = &quot;h&quot;, xlab = &quot;Days after onset&quot;,
+     ylab = &quot;P(secondary symptoms)&quot;, lend = 2, lwd = 4, col = &quot;#666699&quot;,
+     main = &quot;Serial interval distribution&quot;)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/si-1.png" width="672" /></p>
+</div>
+<div id="simulation-using-a-poisson-branching-process" class="section level1">
+<h1>Simulation using a Poisson branching process</h1>
+<div id="simulations-from-a-single-initial-case" class="section level2">
+<h2>Simulations from a single initial case</h2>
+<p>We use the simulations implemented in <code>projections</code> to simulate the start (first 60 days) of an Ebola outbreak (see <a href="http://www.repidemicsconsortium.org/projections/">here</a> for details of model and implementation). Here we use the serial interval defined above, and arbitrary possible values of <span class="math inline">\(R\)</span> from 1.1 to 3.5, each of which uses 1,000 simulations:</p>
+<pre class="r"><code>library(projections)
+
+R_values &lt;- c(1.1, 1.5, 2, 2.5, 3, 3.5)
+
+res &lt;- lapply(R_values,
+              function(R)
+                project(incidence(0), R = R, si = si, n_days = 60, n_sim = 1000)
+              )
+names(res) &lt;- R_values
+</code></pre>
+<p>There are different ways to look at these results, but one possible summary would be to look at the total number of cases accummulating over the first 60 days, for each simulation:</p>
+<pre class="r"><code>
+count_cumul_cases &lt;- function(x) {
+  out &lt;- apply(x, 2, cumsum)
+  class(out) &lt;- c(&quot;cumul_cases&quot;, &quot;matrix&quot;)
+  out
+}
+
+plot.cumul_cases &lt;- function(x, ...) {
+
+  coords &lt;- boxplot(t(x), col = &quot;#862d59&quot;, xlab = &quot;Days from onset of index case&quot;,
+                    ylab = &quot;Cumulative number of cases&quot;, outline = FALSE, range = Inf,
+                    ...)
+
+  quantiles &lt;- apply(x, 1, quantile, c(.95, .99))
+  for (i in 1:nrow(quantiles)) {
+    points(1:ncol(quantiles), quantiles[i, ], type = &quot;l&quot;, col = &quot;#862d59&quot;)
+  }
+}
+
+cumul_cases &lt;- lapply(res, count_cumul_cases)</code></pre>
+<p>In the following graph, we represent the cumulative number of cases from 1,000 simulations, up to 60 days after the onset of the first case, assuming various values of the reproduction number. Outliers are not displayed on these barplots but the maximum alues are indicated, as well as the 95% and 99% quantiles (lines).</p>
+<pre class="r"><code>
+par(mar = c(5.1, 4.1, 4.1, 0.1))
+
+for (i in 1:length(cumul_cases)) {
+  plot(cumul_cases[[i]], main = paste(&quot;Assumed R:&quot;, names(res)[i]))
+}</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-1.png" width="100%" /><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-2.png" width="100%" /><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-3.png" width="100%" /><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-4.png" width="100%" /><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-5.png" width="100%" /><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-6.png" width="100%" /></p>
+<p><strong>In short</strong>: for moderate reproduction numbers, it is unlikely that a <strong>single index case</strong> would lead to more than a <strong>handful of cases</strong> over the first 2 months. For larger <span class="math inline">\(R_0\)</span> (2.5 and above) we cannot exclude more substantial epidemics (50 to a 200-300). Again, this relies <strong>solely on a single case</strong>. The current situation is likely more concerning, as there are 2 confirmed cases (see next section for sensitivity).</p>
+</div>
+<div id="using-a-few-cases-as-initial-conditions" class="section level2">
+<h2>Using a few cases as initial conditions</h2>
+<p>This is very much a ‘what if’ scenario, as we don’t currently have daily incidence. Still, we can replicate the simulations using more cases, distributed randomly over a given time period.</p>
+<p>The function below will achieve these simulations, using <code>n_rep</code> simulated time series as input (default 100), simulating <code>n_sim</code> random trajectories for each time series, and pulling the results together.</p>
+<pre class="r"><code>
+make_simul &lt;- function(n_initial_cases = 1, time_period = 30, n_rep = 100, ...) {
+  out &lt;- vector(length = n_rep, mode = &quot;list&quot;)
+  for (i in seq_len(n_rep)) {
+    fake_data &lt;- c(0, # index case
+                   sample(seq_len(time_period),
+                          n_initial_cases - 1,
+                          replace = TRUE)
+                   )
+    fake_epicurve &lt;- incidence::incidence(fake_data)
+    out[[i]] &lt;- project(fake_epicurve, ...)
+  }
+
+  do.call(cbind, out)
+}</code></pre>
+<p>In the following subsections, we give examples of ‘what if’ scenarios, for different number of initial cases and time windows.</p>
+<div id="expected-number-of-cases-if-2-cases-occured-on-the-same-week-r-2" class="section level3">
+<h3>Expected number of cases if 2 cases occured on the same week (<span class="math inline">\(R = 2\)</span>)</h3>
+<pre class="r"><code>
+x_2_7 &lt;- make_simul(2, 7, R = 2, si = si, n_days = 60, n_sim = 100)
+x_2_7_cumul &lt;- count_cumul_cases(x_2_7)
+plot(x_2_7_cumul)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/2-cases-same-week-1.png" width="100%" /></p>
+</div>
+<div id="expected-number-of-cases-if-2-cases-occured-on-the-same-month-r-2" class="section level3">
+<h3>Expected number of cases if 2 cases occured on the same month (<span class="math inline">\(R = 2\)</span>)</h3>
+<pre class="r"><code>
+x_2_30 &lt;- make_simul(2, 30, R = 2, si = si, n_days = 60, n_sim = 100)
+x_2_30_cumul &lt;- count_cumul_cases(x_2_30)
+plot(x_2_30_cumul)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/2-cases-same-month-1.png" width="100%" /></p>
+</div>
+</div>
+</div>
