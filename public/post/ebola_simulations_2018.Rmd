@@ -139,9 +139,9 @@ making a bunch of assumptions, including:
 
 - this EVD outbreak has similar serial interval as the West African outbreak 
 - $R_0$ is within the range of past outbreaks
-- we assume an arbitrary number of 20 cases
-- we assume they occured over a maximum period of 1 month
-- our simulations assume no impact of intervention
+- we assume an arbitrary number of 20 or 40 cases
+- we assume they occurred over a maximum period of 1 month
+- our simulations assume **no impact of intervention**
 - we consider an homogeneous population, wholely susceptible; in particular, we
   do not model the potential impact of urban settings, which would lead to
   increased transmissibility
