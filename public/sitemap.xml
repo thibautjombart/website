@@ -3,37 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thibautjombart.netlify.com/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/group/</loc>
+    <loc>/group/</loc>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/resources/</loc>
+    <loc>/resources/</loc>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/publications/</loc>
+    <loc>/publications/</loc>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/contact/</loc>
+    <loc>/contact/</loc>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/tags/</loc>
+    <loc>/tags/plot/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/</loc>
+    <loc>/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/r/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/ebola_simulations_2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   

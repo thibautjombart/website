@@ -1,0 +1,210 @@
+---
+title: "Simulating the start of an Ebola outbreak"
+author: Thibaut Jombart
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+	
+```{r options, include = FALSE, message = FALSE, warning = FALSE, error = FALSE}
+library(knitr)
+opts_chunk$set(collapse = TRUE)
+
+install_if_missing <- function(x) {
+    if (!require(x, character.only = TRUE)) {
+        install.packages(x)
+        require(x, character.only = TRUE)
+    }
+}
+
+deps <- c("incidence", "epitrix", "distcrete", "projections")
+lapply(deps, install_if_missing)
+
+```
+
+
+
+# Using data from past outbreak: the serial interval
+
+We create a distribution of the serial interval (SI), i.e. the delays between
+primary and secondary symptom onsets, in Ebola Virus Disease (EVD). We start by
+converting previously estimates of the mean and standard deviation of the SI
+(WHO Ebola Response Team (2014) NEJM 371:1481–1495) to the parameters of a Gamma
+distribution:
+
+```{r si-params}
+library(epitrix)
+
+mu <- 15.3 # mean in days days
+sigma <- 9.3 # standard deviation in days
+cv <- sigma/mu # coefficient of variation
+cv
+param <- gamma_mucv2shapescale(mu, cv) # convertion to Gamma parameters
+param
+
+```
+
+The *shape* and *scale* are parameters of a Gamma distribution we can use to
+generate delays. However, delays are typically reported per days, which implies
+a discretisation (from continuous time to discrete numbers). We use the package
+[*distcrete*](https://github.com/reconhub/distcrete) to achieve this
+discretisation:
+
+```{r si}
+
+si <- distcrete::distcrete("gamma", interval = 1,
+               shape = param$shape,
+               scale = param$scale, w = 0)
+si
+
+plot(0:60, si$d(0:60), type = "h", xlab = "Days after onset",
+     ylab = "P(secondary symptoms)", lend = 2, lwd = 4, col = "#666699",
+     main = "Serial interval distribution")
+
+```
+
+
+
+# Simulation using a Poisson branching process
+
+## Simulations from a single initial case
+
+We use the simulations implemented in `projections` to simulate the start (first
+60 days) of an Ebola outbreak (see
+[here](http://www.repidemicsconsortium.org/projections/) for details of model
+and implementation). Here we use the serial interval defined above, and
+arbitrary possible values of $R$ from 1.1 to 3.5, each of which uses 1,000
+simulations:
+
+```{r projections}
+library(projections)
+
+R_values <- c(1.1, 1.5, 2, 2.5, 3, 3.5)
+
+res <- lapply(R_values,
+              function(R)
+                project(incidence(0), R = R, si = si, n_days = 60, n_sim = 1000)
+              )
+names(res) <- R_values
+
+
+```
+
+There are different ways to look at these results, but one possible summary
+would be to look at the total number of cases accummulating over the first 60
+days, for each simulation:
+
+```{r cumul-count}
+
+count_cumul_cases <- function(x) {
+  out <- apply(x, 2, cumsum)
+  class(out) <- c("cumul_cases", "matrix")
+  out
+}
+
+plot.cumul_cases <- function(x, ...) {
+
+  coords <- boxplot(t(x), col = "#862d59", xlab = "Days from onset of index case",
+                    ylab = "Cumulative number of cases", outline = FALSE, range = Inf,
+                    ...)
+
+  quantiles <- apply(x, 1, quantile, c(.95, .99))
+  for (i in 1:nrow(quantiles)) {
+    points(1:ncol(quantiles), quantiles[i, ], type = "l", col = "#862d59")
+  }
+}
+
+cumul_cases <- lapply(res, count_cumul_cases)
+
+```
+
+In the following graph, we represent the cumulative number of cases from 1,000
+simulations, up to 60 days after the onset of the first case, assuming various
+values of the reproduction number. Outliers are not displayed on these barplots
+but the maximum alues are indicated, as well as the 95% and 99% quantiles
+(lines).
+
+```{r options-wide-figures, echo = FALSE}
+opts_chunk$set(fig.height = 5, fig.width = 10, out.width = "100%")
+```
+
+```{r final-plots}
+
+par(mar = c(5.1, 4.1, 4.1, 0.1))
+
+for (i in 1:length(cumul_cases)) {
+  plot(cumul_cases[[i]], main = paste("Assumed R:", names(res)[i]))
+}
+
+```
+
+
+**In short**: for moderate reproduction numbers, it is unlikely that a **single
+index case** would lead to more than a **handful of cases** over the first 2
+months. For larger $R_0$ (2.5 and above) we cannot exclude more substantial
+epidemics (50 to a 200-300). Again, this relies **solely on a single case**. The
+current situation is likely more concerning, as there are 2 confirmed cases (see
+next section for sensitivity).
+
+
+
+## Using a few cases as initial conditions
+
+This is very much a 'what if' scenario, as we don't currently have daily
+incidence. Still, we can replicate the simulations using more cases, distributed
+randomly over a given time period. 
+
+The function below will achieve these simulations, using `n_rep` simulated time
+series as input (default 100), simulating `n_sim` random trajectories for each
+time series, and pulling the results together.
+
+```{r make_simul}
+
+make_simul <- function(n_initial_cases = 1, time_period = 30, n_rep = 100, ...) {
+  out <- vector(length = n_rep, mode = "list")
+  for (i in seq_len(n_rep)) {
+    fake_data <- c(0, # index case
+                   sample(seq_len(time_period),
+                          n_initial_cases - 1,
+                          replace = TRUE)
+                   )
+    fake_epicurve <- incidence::incidence(fake_data)
+    out[[i]] <- project(fake_epicurve, ...)
+  }
+
+  do.call(cbind, out)
+}
+
+```
+
+In the following subsections, we give examples of 'what if' scenarios, for
+different number of initial cases and time windows.
+
+
+### Expected number of cases if 2 cases occured on the same week ($R = 2$)
+
+```{r 2-cases-same-week}
+
+x_2_7 <- make_simul(2, 7, R = 2, si = si, n_days = 60, n_sim = 100)
+x_2_7_cumul <- count_cumul_cases(x_2_7)
+plot(x_2_7_cumul)
+
+```
+
+
+### Expected number of cases if 2 cases occured on the same month ($R = 2$)
+
+```{r 2-cases-same-month}
+
+x_2_30 <- make_simul(2, 30, R = 2, si = si, n_days = 60, n_sim = 100)
+x_2_30_cumul <- count_cumul_cases(x_2_30)
+plot(x_2_30_cumul)
+
+```
+
+

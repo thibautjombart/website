@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plot on Thibaut Jombart website</title>
+    <link>/tags/plot/</link>
+    <description>Recent content in Plot on Thibaut Jombart website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/plot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simulating the start of an Ebola outbreak</title>
+      <link>/post/ebola_simulations_2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ebola_simulations_2018/</guid>
+      <description>Using data from past outbreak: the serial interval We create a distribution of the serial interval (SI), i.e. the delays between primary and secondary symptom onsets, in Ebola Virus Disease (EVD). We start by converting previously estimates of the mean and standard deviation of the SI (WHO Ebola Response Team (2014) NEJM 371:1481–1495) to the parameters of a Gamma distribution:
+library(epitrix) mu &amp;lt;- 15.3 # mean in days days sigma &amp;lt;- 9.</description>
+    </item>
+    
+  </channel>
+</rss>
