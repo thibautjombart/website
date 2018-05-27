@@ -1,7 +1,7 @@
 ---
 title: "Ebola outbreak: what can we say with limited data?"
 author: Thibaut Jombart
-date: "2018-05-21"
+date: "2018-05-21T14:00:00-00:00"
 categories: ["R"]
 tags: ["ebola", "simulations"]
 output:
