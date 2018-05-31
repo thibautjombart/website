@@ -3,68 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://thibautjombart.netlify.com/about/</loc>
   </url>
   
   <url>
-    <loc>/group/</loc>
+    <loc>https://thibautjombart.netlify.com/group/</loc>
   </url>
   
   <url>
-    <loc>/resources/</loc>
+    <loc>https://thibautjombart.netlify.com/resources/</loc>
   </url>
   
   <url>
-    <loc>/publications/</loc>
+    <loc>https://thibautjombart.netlify.com/publications/</loc>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>https://thibautjombart.netlify.com/contact/</loc>
   </url>
   
   <url>
-    <loc>/post/ebola_simulations_2018/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>https://thibautjombart.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ebola/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <loc>https://thibautjombart.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/simulations/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <loc>https://thibautjombart.netlify.com/</loc>
     <priority>0</priority>
   </url>
   
