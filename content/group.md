@@ -55,6 +55,14 @@ Coronavirus (MERS-CoV) infections, with an emphasis on control strategies.
 
 </div>
 
+<div class="member">
+<img src="/images/zhian-kamvar.jpg"> <font class="title">Zhian Kamvar</font>
+
+<p> Zhian joined in June 2018. He is a computational biologist working on developing tools for outbreak response analytics. He is the developer of the <a href="https://cran.r-project.org/package=poppr">poppr</a> R package for population genetic analysis with emphasis on clonal populations and is a major contributor to the <a href="https://cran.r-project.org/package=adegenet">adegenet</a> package.
+
+</p>
+
+</div>
 
 
 
