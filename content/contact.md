@@ -29,6 +29,16 @@ United Kingdom
 
 0044 (0)20 7594 3658
 
+
+
+
+#### Appointment
+
+To book an appointment, please use
+[calendly](https://calendly.com/thibautjombart) - it is fast and simple, and
+more reliable than emails!
+
+
 <br>
 <br>
 <br>
