@@ -6,10 +6,10 @@ publishDir = "public"
 
 [params]
 name = "Thibaut Jombart"
-description = "Lecturer in Outbreak Analytics"
+description = "Associate Professor in Outbreak Analytics"
 email = "thibautjombart@gmail.com"
 phone = "0044 (0)20 7594 3658"
-address = "Department of Infectious Disease Epidemiology, Faculty of Medicine, Imperial College London, London W2 1PG, UK"
+address = "Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, Keppel Street London WC1E 7HT, UK"
 year = 2017
 background = ""
 favicon = "images/gt_favicon.png"
