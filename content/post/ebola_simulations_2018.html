@@ -1,0 +1,167 @@
+---
+title: "Ebola outbreak: what can we say with limited data?"
+author: Thibaut Jombart
+date: "2018-05-21T14:15:00-06:00"
+categories: ["R"]
+tags: ["ebola", "simulations"]
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+
+<div id="context" class="section level2">
+<h2>Context</h2>
+<p><strong>Disclaimer</strong>: this blog post only represents my views, and not that of my institution or my collaborators.</p>
+<p>On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has <a href="http://www.who.int/csr/don/10-may-2018-ebola-drc/en/">notified the WHO</a> of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce. As of the writing time of the post, WHO has published a <a href="http://www.who.int/csr/don/17-may-2018-ebola-drc/en/">timeline of counts of cases</a> by dates of reporting, with a total of 27 cases (including confirmed, probable or suspected cases), reported over a period of 10 days (5th - 15th May 2018).</p>
+<p>Importantly, these data are not dates of infections, or onset (i.e. when people start showing symptoms). Therefore, at this stage it is hard to use this information for making predictions of future trajectories of the outbreak.</p>
+</div>
+<div id="what-do-we-know-from-past-outbreaks" class="section level2">
+<h2>What do we know from past outbreaks?</h2>
+<p>However, we do have some information on past EVD outbreaks, such as the <em>serial interval</em> distribution, i.e of the time between symptom onsets on a transmission chain. In other words, when a set of patients have shown symptoms and potentially infected new people, we have a statistical idea of when these new people will start showing symptoms. In the 2013-2015 EVD outbreak in West Africa, the serial interval was characterised as a discretised gamma distribution with a mean of 15.3 days, with a standard deviation of 9.3 days. We reproduce this distribution below, using the <a href="http://www.repidemicsconsortium.org/">RECON</a> packages <a href="http://www.repidemicsconsortium.org/epitrix/"><code>epitrix</code></a> and <a href="http://www.repidemicsconsortium.org/distcrete/"><code>distcrete</code></a>:</p>
+<pre class="r"><code>library(epitrix)
+library(distcrete)
+
+mu &lt;- 15.3 # mean in days days
+sigma &lt;- 9.3 # standard deviation in days
+cv &lt;- sigma / mu # coefficient of variation
+cv
+## [1] 0.6078431
+param &lt;- gamma_mucv2shapescale(mu, cv) # convertion to Gamma parameters
+param
+## $shape
+## [1] 2.706556
+## 
+## $scale
+## [1] 5.652941
+
+si &lt;- distcrete(&quot;gamma&quot;, interval = 1,
+                shape = param$shape,
+                scale = param$scale, w = 0)
+si
+## A discrete distribution
+##   name: gamma
+##   parameters:
+##     shape: 2.70655567117586
+##     scale: 5.65294117647059
+
+plot(0:60, si$d(0:60), type = &quot;h&quot;, xlab = &quot;Days after onset&quot;,
+     ylab = &quot;P(secondary symptoms)&quot;, lend = 2, lwd = 4, col = &quot;#666699&quot;,
+     main = &quot;Serial interval distribution&quot;)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/si-params-1.png" width="672" /></p>
+<p>From <a href="https://www.nature.com/articles/sdata201519/">historical data</a>, we also have an idea of plausible values of the reproduction number <span class="math inline">\(R_0\)</span>, i.e. the average number of new cases created by an infected patient. These numbers <a href="https://www.nature.com/articles/sdata201519/tables/3">vary widely</a>, with central estimates ranging between 1.3 and 4.7.</p>
+</div>
+<div id="predicting-future-cases-the-poisson-model" class="section level2">
+<h2>Predicting future cases: the Poisson model</h2>
+<p>Taken together, the serial interval distribution and estimates of <span class="math inline">\(R_0\)</span> can be used to estimate the force of infection (how much potential for new cases?) on a given day (example <a href="https://academic.oup.com/aje/article/178/9/1505/89262">here</a>). Typically, the number of new cases <span class="math inline">\(x_t\)</span> on a day <span class="math inline">\(t\)</span> is modelled as a Poisson process determined by the force of infection on that day, <span class="math inline">\(\lambda_t\)</span>, calculated as:</p>
+<p><span class="math display">\[
+\lambda_t = R * \sum_{s=1}^t x_s w(t - s)
+\]</span></p>
+<p>where <span class="math inline">\(w()\)</span> is the serial interval distribution. This can be turned into a simulation tool, which can be used to derive short term predictions of numbers of cases. This normally supposes we know dates of onsets for all cases, which we are missing here. However, we can simulate a large number of potential epidemic curves, distributing a given number of cases over a rough period of time. The function below implements this approach, relying on the <a href="http://www.repidemicsconsortium.org/">RECON</a> packages <a href="http://www.repidemicsconsortium.org/incidence"><code>incidence</code></a> and <a href="http://www.repidemicsconsortium.org/projections"><code>projections</code></a>:</p>
+<pre class="r"><code>library(incidence)
+library(projections)
+
+make_simul &lt;- function(n_initial_cases = 1, time_period = 30, n_rep = 100, ...) {
+  out &lt;- vector(length = n_rep, mode = &quot;list&quot;)
+  for (i in seq_len(n_rep)) {
+    fake_data &lt;- c(0, # index case
+                   sample(seq_len(time_period),
+                          n_initial_cases - 1,
+                          replace = TRUE)
+                   )
+    fake_epicurve &lt;- incidence::incidence(fake_data)
+    out[[i]] &lt;- project(fake_epicurve, ...)
+  }
+
+  do.call(cbind, out)
+}</code></pre>
+</div>
+<div id="caveats" class="section level2">
+<h2>Caveats</h2>
+<p>Before seeing the results, please bear the following <strong>caveats</strong> in mind! These results are merely meant as a ‘what if’ scenario, used in the absence of data on this outbreak. They aim to represent plausible outcomes for an arbitrary number of cases (we don’t know exactly how many confirmed/probable cases exist in the current outbreak) having occured over an arbitrary time period (here, a month), making a bunch of assumptions, including:</p>
+<ul>
+<li>this EVD outbreak has similar serial interval as the West African outbreak</li>
+<li><span class="math inline">\(R_0\)</span> is within the range of past outbreaks</li>
+<li>we assume an arbitrary number of 20 or 40 cases</li>
+<li>we assume they occurred over a maximum period of 1 month</li>
+<li>our simulations assume <strong>no impact of intervention</strong></li>
+<li>we consider an homogeneous population, wholely susceptible; in particular, we do not model the potential impact of urban settings, which would lead to increased transmissibility</li>
+</ul>
+<p>Additionally:</p>
+<ul>
+<li>we use values of <span class="math inline">\(R_0\)</span> uniformally distributed from 1.3 to 4.7, which may give too much weight on larger values (<span class="math inline">\(R_0\)</span> seens to be frequently &lt;2.5, see <a href="https://www.nature.com/articles/sdata201519/tables/3">this link</a>)</li>
+<li>we use a Poisson model, which does not account for super-spreading</li>
+</ul>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>In the following, we look at the total number of cases which would be seen with if 20 or 40 initial cases had occured over a time period of maximum 30 days, simulating 1,000 random sets of onset dates for the initial cases, and 100 subsequent incidence curves for each (over a period of 30 days). The 100,000 resulting simulations will be summarised graphically.</p>
+<div id="assuming-20-initial-cases-distributed-over-a-month" class="section level3">
+<h3>Assuming 20 initial cases distributed over a month</h3>
+<pre class="r"><code>R_values &lt;- seq(1.3, 4.7, length = 1000)
+
+res_20 &lt;- make_simul(n_initial_cases = 20, time_period = 30, n_rep = 1000,
+                  si = si, R = R_values, n_days = 30)
+dim(res_20)
+## [1]     30 100000</code></pre>
+<p>In the following graph, we represent the cumulative number of cases from 1,000 simulations, up to 30 days after the onset of the first case, assuming various values of the reproduction number (taken randomly between 1.3 and 4.7). Outliers are not displayed on these barplots but the ranges are indicated, as well as various quantiles (dashed lines).</p>
+<pre class="r"><code>
+## function to count cumulative number of cases
+count_cumul_cases &lt;- function(x) {
+  out &lt;- apply(x, 2, cumsum)
+  class(out) &lt;- c(&quot;cumul_cases&quot;, &quot;matrix&quot;)
+  out
+}
+
+## colors for quantiles
+quantiles_pal &lt;- colorRampPalette(c(&quot;#cc6666&quot;, &quot;#4d1919&quot;))
+
+## function to plot outputs
+plot.cumul_cases &lt;- function(x, levels = c(.9, .95, .99), ...) {
+
+  coords &lt;- boxplot(t(x), col = &quot;#862d59&quot;, xlab = &quot;Days from onset of index case&quot;,
+                    ylab = &quot;Cumulative number of cases&quot;, outline = FALSE, range = Inf,
+                    ...)
+
+  abline(h = seq(100, 1e4, by = 100), col = &quot;#BEBEBE80&quot;)
+  quantiles &lt;- apply(x, 1, quantile, levels)
+  quantiles_col &lt;- quantiles_pal(length(levels))
+  for (i in 1:nrow(quantiles)) {
+    points(1:ncol(quantiles), quantiles[i, ], type = &quot;l&quot;, lty = 2, lwd = 2,
+           col = quantiles_col[i])
+  }
+
+  legend(&quot;topleft&quot;, lty = 2, lwd = 2, col = quantiles_col,
+         legend = paste(100*levels, &quot;%&quot;), title = &quot;Quantiles&quot;, inset = .02)
+}
+
+## compute cumulative incidence
+cumul_cases_20 &lt;- count_cumul_cases(res_20)
+dim(cumul_cases_20)
+## [1]     30 100000
+
+## plot results
+par(mar = c(5.1, 4.1, 4.1, 0.1))
+
+plot(cumul_cases_20, main = &quot;Projected cumulative incidence&quot;)
+mtext(side = 3, &quot;Assuming 20 initial cases over 1 month&quot;)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/final-plots-1.png" width="100%" /></p>
+</div>
+<div id="assuming-40-initial-cases-distributed-over-a-month" class="section level3">
+<h3>Assuming 40 initial cases distributed over a month</h3>
+<p>We can also look at similar results assuming twice as many cases:</p>
+<pre class="r"><code>
+res_40 &lt;- make_simul(n_initial_cases = 40, time_period = 30, n_rep = 1000,
+                     si = si, R = R_values, n_days = 30)
+
+cumul_cases_40 &lt;- count_cumul_cases(res_40)
+
+plot(cumul_cases_40, main = &quot;Projected cumulative incidence&quot;)
+mtext(side = 3, &quot;Assuming 40 initial cases over 1 month&quot;)</code></pre>
+<p><img src="/post/ebola_simulations_2018_files/figure-html/results_40_cases-1.png" width="100%" /></p>
+<p><strong>In short</strong>: if 20-40 EVD cases were to happen over a period of roughly 1 month, as may be the case here, and assuming an epidemiology broadly in line with previous EVD outbreaks, then in the absence of intervention we would expect to see up to a few 100s of new cases in the following month.</p>
+<p><br> <br></p>
+</div>
+</div>

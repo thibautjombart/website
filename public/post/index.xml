@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Thibaut Jombart website</title>
+    <link>https://thibautjombart.netlify.com/post/</link>
+    <description>Recent content in Posts on Thibaut Jombart website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 May 2018 14:15:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://thibautjombart.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ebola outbreak: what can we say with limited data?</title>
+      <link>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</link>
+      <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
+      
+      <guid>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</guid>
+      <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.
+On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
+    </item>
+    
+  </channel>
+</rss>
