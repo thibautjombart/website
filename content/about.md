@@ -7,7 +7,7 @@ weight = 2
 
 I am a researcher in <em>outbreak response analytics</em>, with a background in
 <em>biostatistics</em>, <em>population genetics</em>, and <em>R
-programming</em>. I currently work as a lecturer in the 
+programming</em>. I am an Associate Professor at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk), as well as a Senior Lecturer in the 
 [Department of Infectious Disease Epidemiology](https://www.imperial.ac.uk/school-public-health/infectious-disease-epidemiology/) at 
 [Imperial College London](https://www.imperial.ac.uk/). My research focusses on
 developing new methodologies and tools for understanding how infectious diseases
