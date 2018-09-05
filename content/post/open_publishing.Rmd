@@ -1,0 +1,81 @@
+---
+title: "Why go open?"
+author: Thibaut Jombart
+date: "2018-09-05T14:15:00-06:00"
+categories: ["markdown"]
+tags: ["publishing", "opinion"]
+bibliography: publishing.bib
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    css: css/posts.css
+---
+
+I think the first time I ranted publicly about publishing was during [Epidemics6](http://www.globaleventslist.elsevier.com/events/2017/11/epidemics-6-6th-international-conference-on-infectious-disease-dynamics/). At the time, I was making a plea for open software practices in science, which most people seem now to agree on: *transparent, free, reproducible science seems to be the way forward*. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher's life, the *publication* of peer reviewed papers. Back then, I tried to outline quickly why I thought we could do better and added a few slides to [my talk](https://github.com/thibautjombart/talks/blob/master/Epidemics6/Epidemics2017_TJ_1.1.pdf), which then caused a bit of laughter, and some interesting follow-up conversations. In this post I'll try to briefly explain why I think the current dominating publishing pratice is not working, and how we can make it better.
+
+
+# Scientific publishing: a terrible business model
+
+This is the easy part. While open-access journals are becoming more common, there is still a large number of journals charging for accessing their content. In short: *you can access to science if you can afford it*. This is the very contradiction of the idea of a science *open to all*. It is also poor value for money for society as a whole, due to a fairly immoral business model: 
+
+- scientists pay to provide the very material publishers make money from
+- scientists then pay again, via their academic institutions most of the time, to gain access to content
+- the heavy lifting in the publishing industry (reviewing, editing) is made by
+  scientists, most of the time working for free
+- as science is often publicly funded, this is effectively a stream of money
+  going from taxpayers to private companies, without any benefit for society;
+  it only makes science less accessible
+
+
+This model is quite hard to defend whilst keeping a straight face. In fairness, it is also probably dying, as *open-access* journals are becoming more popular. I would argue *open-access* good, but *open publishing* (i.e. published reviews, disclosed referees) is better. 
+
+
+
+# Closed review: a culture of abuse
+
+Social psychology has studied intensively the determinants of abusive behaviour, especially in relation to hierarchical dynamics and authority [e.g. @Haney1972-ff, @Milgram1965-zc, @Milgram1963-ka]. See @Zimbardo2011-xx for an accessible introduction to the field, and [@Aronson2003-kn] for a deeper introduction to social psychology in general. 
+
+<p>
+<img src="img/milgram.jpg" width="65%" class="center"><br>
+<caption>*Figure:* The Milgram experiment [@Milgram1965-zc], a seminal study of the determinants of abusive behaviour and obedience to authority.
+</caption>
+</p>
+
+In (very) short: under specific circumstances, most people will engage in abusive behaviours [^1]. Various external factors may shape such circumstances, but amongst the most common one we often find:
+
+1. being in a position of power
+2. impunity
+3. having a tier holding authority held responsible for the perpetrator's actions
+4. deriving a personal gain from the abuse
+5. having been a victim of abuse yourself
+
+
+Now, if you try thinking about these in an anonymous reviewing process, you will find all the of above apply. Referees are in a position of power with respect to authors. Anonymity gives them impunity. An editor is officially in charge. Referees often review work of their perceived competitors, so they have an interest in stalling or blocking their work. And everyone who ever submitted a paper has had some horror stories about poor or unfair reviewing: a paper half read by a referee who asks for material already present, insulting or derogatory comments, stalling papers, and unsubstantiated claims, i.e. not passing the basic test of standard scientific practices.
+
+
+<p>
+<img src="img/quote-small-gods.png" width="65%" class="center"><br>
+</p>
+
+
+# Open review as a step forward
+
+Most of the factors described above hinge on the fact that referees are anonymous, and usually not held accountable for their work as a referee. The solution is an easy one: make the reviewing itself an integral part of transparent scientific practices. Publish reviews alongside papers, as well as several revisions of the manuscript so that one could track how things evolved during the peer review process. Derive metrics to reward constructive and helpful reviews, and make it part of the way scientists are evaluated (is there an *R-index* yet?). 
+
+
+I won't claim this system is without fault, but so far every argument I have heard against it have a far worse counterpart in the existing system. Open review is common practice in software development (*code reviews*) where it is a very useful instrument for improving work collaboratively. And an increasing number of journals such as [F1000](https://f1000research.com/) and [BMC](https://www.biomedcentral.com/) are now using open reviews. In the age of open data, open software and open science, fully open publishing seems to be the only reasonable way forward.
+
+
+
+[^1]: at this stage most people think 'not me' (I did), which usually means 'especially you'
+
+
+
+
+
+# References
+  
+  
+  
+
