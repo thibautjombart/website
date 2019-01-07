@@ -20,7 +20,7 @@ do no fulfil these criteria.
 
 ### Statistics
 
-These were last updated on the 22-12-2017.
+These were last updated on the 07-01-2019.
 
 web of science:
 
