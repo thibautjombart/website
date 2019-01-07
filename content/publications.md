@@ -24,25 +24,28 @@ These were last updated on the 22-12-2017.
 
 web of science:
 
-- citations: 6,381
-- h-index: 26
+- citations: 7,857
+- h-index: 28
 
 
 
 Google scholar:
 
-- citations: 8,574
-- h-index: 28
-- h10-index: 43
+- citations: 10,510
+- h-index: 31
+- h10-index: 49
 
 
 
 
 ### List of publications
 
-This list was last updated on the 04-11-2018.
+This list was last updated on the 07-01-2019.
 
 <ul>
+<li>
+Polonsky JA, Baidjoe A, Kamvar ZN, Cori A, Durski K, Edmunds JW, Eggo RM, Funk S, Kaiser L, Keating P, le Polain de Waroux O, Marks M, Moraga P, Morgan O, Nouvellet P, Ratnayake R, Roberts CH, Whitworth J &amp; Jombart T
+(accepted). Outbreak analytics: a developing data science for informing the response to emerging pathogens <i>Philosophical Transactions B</i></li>
 <li>
 Cori A, Nouvellet P, Garske T, Bourhy H, Nakouné E &amp; Jombart T
 (accepted). A graph-based evidence synthesis approach to detecting
