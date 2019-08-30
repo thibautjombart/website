@@ -2,63 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thibaut Jombart website</title>
-    <link>/</link>
+    <link>https://thibautjombart.netlify.com/</link>
     <description>Recent content on Thibaut Jombart website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thibautjombart.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://thibautjombart.netlify.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>I am a researcher in outbreak response analytics, with a background in biostatistics, population genetics, and R programming. I am an Associate Professor at the London School of Hygiene and Tropical Medicine, as well as a Senior Lecturer in the Department of Infectious Disease Epidemiology at Imperial College London. My research focusses on developing new methodologies and tools for understanding how infectious diseases spread, and how we can control them.</description>
+      <guid>https://thibautjombart.netlify.com/about/</guid>
+      <description>I am a researcher in outbreak response analytics, with a background in biostatistics, population genetics, and R programming. My research focusses on developing new methodologies and tools for understanding how infectious diseases spread, and how we can control them.
+I wear several hats, including:
+  Associate Professor in Outbreak Analytics at the London School of Hygiene and Tropical Medicine   Senior Lecturer in Genetic Analysis at Imperial College London   A member of the UK Public Health Rapid Support Team   Founder and current President of the R Epidemics Consortium (RECON), an NGO for the development of free data analytics resources for health emergencies   Extreme metal vocalist (currently innactive).</description>
     </item>
     
     <item>
       <title>Group</title>
-      <link>/group/</link>
+      <link>https://thibautjombart.netlify.com/group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/group/</guid>
+      <guid>https://thibautjombart.netlify.com/group/</guid>
       <description>Amrish Baidjoe  Amrish joined in September 2017. He is a field epidemiologist and microbiologist who worked for years on Malaria and Salmonella epidemiology, with some substantial experience in virology. A former EPIET fellow, Amrish is the current president of the EPIET Alumni network. He works on outbreak response and humanitarian crises, develops training material for outbreak analysis, and runs workshops.  Finlay Campbell  Finlay joined in February 2016 as a Master student, and started his PhD in September 2016, in a co-supervision with Neil Ferguson and Anne Cori.</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>/resources/</link>
+      <link>https://thibautjombart.netlify.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/resources/</guid>
+      <guid>https://thibautjombart.netlify.com/resources/</guid>
       <description>RECON learn Most of the training material I currently develop is hosted on the RECON learn platform. This includes lectures, praticals, and code gists.
-Lectures  Introduction to phylogenetics Reproducibility using R Primer on statistical analysis of outbreaks Outbreak reconstruction using outbreaker2  Practicals  Phylogenetics using R Simulated Ebola response 1 Simulated Ebola response 2  
-Podcasts I have started experimenting with podcast in 2018. Most podcasts are under the RECON R tips umbrella, but I also occasionally post other videos, typically population genetics / statistics.</description>
+Lectures  Introduction to phylogenetics Reproducibility using R Primer on statistical analysis of outbreaks Outbreak reconstruction using outbreaker2  Practicals  Phylogenetics using R Simulated Ebola response 1 Simulated Ebola response 2  Podcasts I have started experimenting with podcast in 2018. Most podcasts are under the RECON R tips umbrella, but I also occasionally post other videos, typically population genetics / statistics.</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>/publications/</link>
+      <link>https://thibautjombart.netlify.com/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publications/</guid>
-      <description>As of November 2017, I have decided to promote open, transparent publishing, i.e. publishing in which:
- papers are freely available to the community reviews are fully published referees are explicitly named  I no longer review for, edit for, or submit my research papers to journals which do no fulfil these criteria.
-Statistics These were last updated on the 22-12-2017.
-web of science:
- citations: 7,857 h-index: 28  Google scholar:</description>
+      <guid>https://thibautjombart.netlify.com/publications/</guid>
+      <description>Statistics These were last updated on the 29-08-2019.
+Web of science:
+ citations: 9,243 h-index: 30  Google scholar:
+ citations: 12,477 h-index: 35 h10-index: 56  List of publications This list was last updated on the 29-08-2019.
+  Leiva, C. et al. Population substructure and signals of divergent adaptive selection despite admixture in the sponge Dendrilla antarctica from shallow waters surrounding the Antarctic Peninsula. Molecular Ecology (2019). DOI: 10.</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/contact/</link>
+      <link>https://thibautjombart.netlify.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>https://thibautjombart.netlify.com/contact/</guid>
       <description>Email This is the best way to contact me: thibautjombart@gmail.com.
 Address From 1st September 2018:
 Department of Infectious Disease Epidemiology
@@ -78,19 +79,19 @@ Appointment To book an appointment, please use calendly - it is fast and simple,
     
     <item>
       <title>Why go open?</title>
-      <link>/post/open_publishing/</link>
+      <link>https://thibautjombart.netlify.com/post/open_publishing/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
       
-      <guid>/post/open_publishing/</guid>
+      <guid>https://thibautjombart.netlify.com/post/open_publishing/</guid>
       <description>I think the first time I ranted publicly about publishing was during Epidemics6. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: transparent, free, reproducible science seems to be the way forward. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the publication of peer reviewed papers.</description>
     </item>
     
     <item>
       <title>Ebola outbreak: what can we say with limited data?</title>
-      <link>/post/ebola_simulations_2018/</link>
+      <link>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
       
-      <guid>/post/ebola_simulations_2018/</guid>
+      <guid>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</guid>
       <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.
 On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
     </item>
