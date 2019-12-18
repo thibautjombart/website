@@ -23,48 +23,8 @@
   </url>
   
   <url>
-    <loc>https://thibautjombart.netlify.com/categories/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/categories/markdown/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/tags/opinion/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/post/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/tags/publishing/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/tags/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/</loc>
-    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://thibautjombart.netlify.com/post/open_publishing/</loc>
     <lastmod>2018-09-05T14:15:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://thibautjombart.netlify.com/tags/ebola/</loc>
-    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
   </url>
   
   <url>
@@ -73,13 +33,62 @@
   </url>
   
   <url>
+    <loc>https://thibautjombart.netlify.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/tags/ebola/</loc>
+    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/categories/markdown/</loc>
+    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/tags/opinion/</loc>
+    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/post/</loc>
+    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/tags/publishing/</loc>
+    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://thibautjombart.netlify.com/categories/r/</loc>
     <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://thibautjombart.netlify.com/tags/simulations/</loc>
     <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/tags/</loc>
+    <lastmod>2018-05-21T14:15:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thibautjombart.netlify.com/</loc>
+    <lastmod>2018-09-05T14:15:00-06:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
