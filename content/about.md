@@ -50,10 +50,15 @@ robust estimations of transmissibility and the use of branching processes for
 short term incidence forecasting.
 
 I regularly deploy to outbreak responses in the field, or close to it. In 2019,
-I will have spent a total of 6 months in DRC for the response to the Ebola
-outbreak. I set up the analytics pipelines used first in Béni, then in Goma for
-informing the leadership of the response on various aspects of the outbreak in
-real time.
+I will have spent a total of 6 months in North Kivu, DRC, for the response to
+the **Ebola** outbreak. I set up the analytics pipelines used first in Béni, then in
+Goma for informing the leadership of the response on various aspects of the
+outbreak in real time. Since February 2020, I have been working full-time on
+**COVID-19**, setting up data pipelines for the <a
+href="https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases">CMMID
+group</a> at LSHTM, and developing statistical approaches for informing the
+response in the UK alongside many other members of <a
+href="https://www.gov.uk/government/publications/spi-m-publish-updated-modelling-summary">SPI-M</a>.
 
 
 
