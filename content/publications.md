@@ -29,10 +29,15 @@ Google scholar:
 
 ### List of publications
 
-This list was last updated on the 29-08-2019.
+This list was last updated on the 26-06-2020.
 
 <ul>
 <li>
+Jombart T, van Zandvoort K, Russell TW et al. Inferring the number of COVID-19 cases from recently reported deaths. Wellcome Open Res 2020, 5:78 <a href="https://doi.org/10.12688/wellcomeopenres.15786.1">https://doi.org/10.12688/wellcomeopenres.15786.1</a>
+</li>
+<li>
+Jombart T, Jarvis CI, Mesfin S, Tabal N, Mossoko M, Mpia LM, Abedi A, Chene S, Forbin EE, Belizaire MRD, de Radiguès X, Ngombo R, Tutu Y, Finger F, Crowe M, Edmunds WJ, Nsio J, Yam A, Diallo B, Gueye AS, Ahuka-Mundeke S, Yao M, Fall IS (2020) The cost of insecurity: from flare-up to control of a major Ebola virus disease hotspot during the outbreak in the Democratic Republic of the Congo, 2019. Eurosurveillance 25(2). <a href="https://doi.org/10.2807/1560-7917.ES.2020.25.2.1900735">https://doi.org/10.2807/1560-7917.ES.2020.25.2.1900735</a>
+</li>
 Leiva, C. et al. Population substructure and signals of divergent adaptive selection despite admixture in the sponge Dendrilla antarctica from shallow waters surrounding the Antarctic Peninsula. <i>Molecular Ecology</i> (2019). DOI: <a href="https://doi.org/10.1111/mec.15135">10.1111/mec.15135</a>
 </li>
 <li>Campbell F, Cori A, Ferguson N, Jombart T (2019) Bayesian inference of transmission chains using timing of symptoms, pathogen genomes and contact data. <i>PLoS Comput Biol</i> 15(3): e1006930. DOI:<a href="https://doi.org/10.1371/journal.pcbi.1006930">10.1371/journal.pcbi.1006930</a>
