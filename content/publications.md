@@ -31,6 +31,8 @@ Google scholar:
 
 This list was last updated on the 29-08-2019.
 
+* Jit M, **Jombart T**, Nightingale ES, et al. 2020. Estimating number of cases and spread of coronavirus disease (COVID-19) using critical care admissions, United Kingdom, February to March 2020. Euro Surveill. 25(18):2000632. doi:10.2807/1560-7917.ES.2020.25.18.2000632
+
 * **Jombart T**, van Zandvoort K, Russell TW et al. Inferring the number of COVID-19 cases from recently reported deaths. Wellcome Open Res 2020, 5:78 <a href="https://doi.org/10.12688/wellcomeopenres.15786.1">10.12688/wellcomeopenres.15786.1</a>
 
 * **Jombart T**, Jarvis CI, Mesfin S, Tabal N, Mossoko M, Mpia LM, Abedi A, Chene S, Forbin EE, Belizaire MRD, de Radiguès X, Ngombo R, Tutu Y, Finger F, Crowe M, Edmunds WJ, Nsio J, Yam A, Diallo B, Gueye AS, Ahuka-Mundeke S, Yao M, Fall IS (2020) The cost of insecurity: from flare-up to control of a major Ebola virus disease hotspot during the outbreak in the Democratic Republic of the Congo, 2019. Eurosurveillance 25(2). <a href="https://doi.org/10.2807/1560-7917.ES.2020.25.2.1900735">10.2807/1560-7917.ES.2020.25.2.1900735</a>
