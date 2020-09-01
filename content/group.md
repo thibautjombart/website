@@ -8,16 +8,18 @@ weight = 3
 
 ### Current members
 
-<div class="member">
-<img src="/images/amy-dighe.jpg"> <font class="title">Amy Dighe</font>
+- Amy Dighe (PhD student, ICL, 2017-)
+- Dr Tim Taylor (Research Fellow LSHTM, 2020-)
+- Anne Suffel (MSc student, LSHTM, 2020-)
+- Emily Meyer (MSc student, LSHTM, 2020-)
+- Allegra Wilson (MSc student, LSHTM, 2020-)
+- Srikant Mohan (MSc student, LSHTM, 2020-)
 
-Amy started her PhD in September 2017, in a co-supervision with <a
-href="https://www.imperial.ac.uk/people/neil.ferguson"> Neil Ferguson</a>. Her
-work is dedicated to modelling the dynamics of Middle-East Respiratory Syndrome
-Coronavirus (MERS-CoV) infections, with an emphasis on control strategies.
-
-
-</div>
+<!-- This shit no longer works:  -->
+<!-- <div class="member"> -->
+<!-- <img src="/images/amy-dighe.jpg"> <font class="title">Amy Dighe</font> -->
+<!-- Amy started her PhD in September 2017, in a co-supervision with <a href="https://www.imperial.ac.uk/people/neil.ferguson"> Neil Ferguson</a>. Her work is dedicated to modelling the dynamics of Middle-East Respiratory Syndrome Coronavirus (MERS-CoV) infections, with an emphasis on control strategies. -->
+<!-- </div> -->
 
 
 
