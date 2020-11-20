@@ -12,25 +12,12 @@ for understanding how infectious diseases spread, and how we can control them.
 
 I wear several hats, including:
 
-<ul>
-
-<li>
-Associate Professor in Outbreak Analytics at the <a href="https://www.lshtm.ac.uk">London School of Hygiene and Tropical Medicine</a>
-</li>
-<li>
-Senior Lecturer in Genetic Analysis at <a href="https://www.imperial.ac.uk/">Imperial College London</a>
-</li>
-<li>
-A member of the <a href="https://www.lshtm.ac.uk/UKPHRST">UK Public Health Rapid Support Team</a>
-</li>
-<li>
-Founder and current President of the R Epidemics Consortium (<a href="https://www.repidemicsconsortium.org">RECON</a>), an NGO for
+* Associate Professor in Outbreak Analytics at the <a href="https://www.lshtm.ac.uk">London School of Hygiene and Tropical Medicine</a>
+* Senior Lecturer in Genetic Analysis at <a href="https://www.imperial.ac.uk/">Imperial College London</a>
+* A member of the <a href="https://www.lshtm.ac.uk/UKPHRST">UK Public Health Rapid Support Team</a>
+* Founder and current President of the R Epidemics Consortium (<a href="https://www.repidemicsconsortium.org">RECON</a>), an NGO for
 the development of free data analytics resources for health emergencies
-</li>
-<li>
-Extreme metal vocalist (currently innactive).
-</li>
-</ul>
+* Extreme metal vocalist (currently innactive).
 
 You can find my CV <a href="https://github.com/thibautjombart/cv/raw/master/cv.pdf">here</a>, and my PhD thesis (in French) [there](/data/thesis.pdf).
 
