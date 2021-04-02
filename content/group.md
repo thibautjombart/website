@@ -8,12 +8,9 @@ weight = 3
 
 ### Current members
 
-- Amy Dighe (PhD student, ICL, 2017-)
 - Dr Tim Taylor (Research Fellow LSHTM, 2020-)
-- Anne Suffel (MSc student, LSHTM, 2020-)
-- Emily Meyer (MSc student, LSHTM, 2020-)
-- Allegra Wilson (MSc student, LSHTM, 2020-)
-- Srikant Mohan (MSc student, LSHTM, 2020-)
+- Amy Dighe (PhD student, ICL, 2017-)
+- Bethany Evans (MSc Student LSHTM, 2021-)
 
 <!-- This shit no longer works:  -->
 <!-- <div class="member"> -->
@@ -27,6 +24,10 @@ weight = 3
 
 ### Alumni
 
+- Anne Suffel (MSc student, LSHTM, 2019-2020)
+- Emily Meyer (MSc student, LSHTM, 2019-2020)
+- Allegra Wilson (MSc student, LSHTM, 2019-2020)
+- Srikant Mohan (MSc student, LSHTM, 2019-2020)
 - Finlay Campbell (MRes student 2016, PhD student 2016-2019, Research Associate 2019-2020)
 - Zhian Kamvar (Research Associate, 2018-2020)
 - Janetta Skarp (MRes student, 2018-2019)
