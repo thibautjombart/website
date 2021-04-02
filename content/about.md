@@ -14,6 +14,7 @@ I wear several hats, including:
 
 * Associate Professor in Outbreak Analytics at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk)
 * Senior Lecturer in Genetic Analysis at [Imperial College London](https://www.imperial.ac.uk/)
+* WHO consultant and member of the WHO COVID-19 analytics team
 * A member of the [UK Public Health Rapid Support Team](https://www.lshtm.ac.uk/UKPHRST)
 * Founder and current President of the R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)), an NGO for
 the development of free data analytics resources for health emergencies
