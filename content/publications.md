@@ -9,27 +9,42 @@ weight = 10
 
 ### Statistics
 
-These were last updated on the 29-08-2019.
+These were last updated on the 10-08-2021.
 
 Web of science:
-
-- citations: 9,243
-- h-index: 30
-
+- citations: 14,069
+- h-index: 40
 
 
 Google scholar:
-
-- citations: 12,477
-- h-index: 35
-- h10-index: 56
+- citations: 25,137
+- h-index: 55
+- h10-index: 94
 
 
 
 
 ### List of publications
 
-This list was last updated on the 29-08-2019.
+This list was last updated on the 10-08-2021. It does not include the (many)
+papers on COVID-19 under the CMMID group authorship.
+
+* Brooks-Pollock E, Danon L, **Jombart T**, Pellis L. Modelling that shaped the early COVID-19 pandemic response in the UK. Philos Trans R Soc Lond B Biol Sci. 2021;376: 20210001.
+
+* **Jombart T**, Ghozzi S, Schumacher D, Taylor TJ, Leclerc QJ, Jit M, et al. (2021) Real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection. Philos Trans R Soc Lond B Biol Sci. 2021;376: 20200266.<a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0266">10.1098/rstb.2020.0266</a>
+
+* Campbell F, Archer B, Laurenson-Schafer H, Jinnai Y, Konings F, Batra N, Pavlin B, Vandemale K, Van Kerkhove M, **Jombart T** et al. (2021) Increased transmissibility and global spread of SARS-CoV-2 variants of concern as at June 2021. Euro Surveill. 2021;26. doi:10.2807/1560-7917.ES.2021.26.24.2100509
+
+* Leclerc QJ, Nightingale ES, Abbott S, CMMID COVID-19 Working Group, **Jombart T** (2021) Analysis of temporal trends in potential COVID-19 cases reported through NHS Pathways England. Sci Rep. 2021;11: 7106.
+
+* Carter SE, Gobat N, Pfaffmann Zambruni J, Bedford J, van Kleef E, **Jombart T**, et al. (2021)
+What questions we should be asking about COVID-19 in humanitarian settings: perspectives from the Social Sciences Analysis Cell in the Democratic Republic of the CongoBMJ Global Health 2020;5:e003607. <a href="https://gh.bmj.com/content/5/9/e003607">10.1136/bmjgh-2020-003607</a>
+
+* Rees EM, Nightingale ES, Jafari Y, Waterlow NR, Clifford S, B Pearson CA, **Jombart T** et al. (2020) COVID-19 length of hospital stay: a systematic review and data synthesis. BMC Med. 2020;18: 270. 
+
+* Mobula LM, Samaha H, Yao M, Gueye AS, Diallo B, Umutoni C, Anoko J, Lokonga JP, Minikulu L, Mossoko M, Bruni E, Carter S, **Jombart T**, et al. (2020) Recommendations for the COVID-19 Response at the National Level Based on Lessons Learned from the Ebola Virus Disease Outbreak in the Democratic Republic of the Congo. The American Journal of Tropical Medicine and Hygiene: 12–17. doi:10.4269/ajtmh.20-0256
+
+* Parisi A, Phuong TLT, Mather AE, **Jombart T**, Tuyen HT, Lan NPH, et al. (2020) The role of animals as a source of antimicrobial resistant nontyphoidal Salmonella causing invasive and non-invasive human disease in Vietnam. Infect Genet Evol. 2020;85: 104534.
 
 * Jit M, **Jombart T**, Nightingale ES, et al. 2020. Estimating number of cases and spread of coronavirus disease (COVID-19) using critical care admissions, United Kingdom, February to March 2020. Euro Surveill. 25(18):2000632. doi:10.2807/1560-7917.ES.2020.25.18.2000632
 
