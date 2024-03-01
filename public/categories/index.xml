@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Thibaut Jombart website</title>
-    <link>https://thibautjombart.netlify.com/categories/</link>
+    <link>https://thibautjombart.netlify.app/categories/</link>
     <description>Recent content in Categories on Thibaut Jombart website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
-    <atom:link href="https://thibautjombart.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thibautjombart.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>https://thibautjombart.netlify.com/categories/markdown/</link>
+      <link>https://thibautjombart.netlify.app/categories/markdown/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
-      <guid>https://thibautjombart.netlify.com/categories/markdown/</guid>
+      <guid>https://thibautjombart.netlify.app/categories/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://thibautjombart.netlify.com/categories/r/</link>
+      <link>https://thibautjombart.netlify.app/categories/r/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
-      <guid>https://thibautjombart.netlify.com/categories/r/</guid>
+      <guid>https://thibautjombart.netlify.app/categories/r/</guid>
       <description></description>
     </item>
   </channel>

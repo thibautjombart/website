@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thibaut Jombart website</title>
-    <link>https://thibautjombart.netlify.com/</link>
+    <link>https://thibautjombart.netlify.app/</link>
     <description>Recent content on Thibaut Jombart website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
-    <atom:link href="https://thibautjombart.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thibautjombart.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://thibautjombart.netlify.com/about/</link>
+      <link>https://thibautjombart.netlify.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thibautjombart.netlify.com/about/</guid>
+      <guid>https://thibautjombart.netlify.app/about/</guid>
       <description>I am a researcher in outbreak response analytics, with a background in biostatistics, population genetics, and R programming. My research focusses on developing new methodologies and tools for understanding how infectious diseases spread, and how we can control them.&#xA;I wear several hats, including:&#xA;Senior Lecturer in Genetic Analysis at Imperial College London Consultant in Outbreak Analytics and Epidemics Modelling Extreme metal vocalist and mandolin player Since 2023, volunteering in various non-profit organizations takes about half of my time Other hats I used to wear include:</description>
     </item>
     <item>
       <title>Group</title>
-      <link>https://thibautjombart.netlify.com/group/</link>
+      <link>https://thibautjombart.netlify.app/group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thibautjombart.netlify.com/group/</guid>
+      <guid>https://thibautjombart.netlify.app/group/</guid>
       <description>Mine is a virtual &amp;lsquo;group&amp;rsquo;, as we all live in different countries. I usually supervise no more than 3 people (ideally one or two) at any given time. But do get in touch if you would like to discuss a research project.&#xA;Current members Bethany Evans (PhD student, University of Geneva, 2021-); co-supervised with Olivia Keiser and Laurent Kaiser Cyril Geismar (PhD student, Imperial College London, 2021-); co-supervised with Anne Cori and Peter White Alumni Dr Tim Taylor (Research Fellow LSHTM, 2020-2021) Amy Dighe (PhD student, ICL, 2017-2020) Anne Suffel (MSc student, LSHTM, 2019-2020) Emily Meyer (MSc student, LSHTM, 2019-2020) Allegra Wilson (MSc student, LSHTM, 2019-2020) Srikant Mohan (MSc student, LSHTM, 2019-2020) Finlay Campbell (MRes student 2016, PhD student 2016-2019, Research Associate 2019-2020) Zhian Kamvar (Research Associate, 2018-2020) Janetta Skarp (MRes student, 2018-2019) Amrish Baidjoe (postdoc, 2018-2019) Martin Hinsch (postdoc, 2017-2018) Tim McMackin (MPH student, 2015-2016) Anil Keshwani (MSc student, co-supervision with Tini Garske, 2015-2016) Lucy Tran (MSc student, co-supervision with Nick Croucher, 2015-2016) Joel Hellewell (Wellcome Trust funded MRes, 2014-2015) Camilla Strang (MSc student 2014-2015) Caitlin Collins (Research Assistant, 2013-2014) Yee Loong Low (Master student, 2014) Veronika Valovicova (Master student, 2013) Oluyemisi Khalidson (Master student, 2014) </description>
     </item>
     <item>
       <title>Resources</title>
-      <link>https://thibautjombart.netlify.com/resources/</link>
+      <link>https://thibautjombart.netlify.app/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thibautjombart.netlify.com/resources/</guid>
+      <guid>https://thibautjombart.netlify.app/resources/</guid>
       <description>RECON learn Most of the training material I currently develop is hosted on the RECON learn platform. This includes lectures, praticals, and code gists.&#xA;Lectures Introduction to phylogenetics Reproducibility using R Primer on statistical analysis of outbreaks Outbreak reconstruction using outbreaker2 Practicals Phylogenetics using R Simulated Ebola response 1 Simulated Ebola response 2 Podcasts I have started experimenting with podcast in 2018. Most podcasts are under the RECON R tips umbrella, but I also occasionally post other videos, typically population genetics / statistics.</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>https://thibautjombart.netlify.com/publications/</link>
+      <link>https://thibautjombart.netlify.app/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thibautjombart.netlify.com/publications/</guid>
+      <guid>https://thibautjombart.netlify.app/publications/</guid>
       <description>Statistics These were last updated on the 01-03-2024.&#xA;Web of science:&#xA;citations: 15,570 h-index: 46 Google scholar:&#xA;citations: 40,144 h-index: 65 h10-index: 108 List of publications This list was last updated on the 01-01-2024. It does not include the (many) papers on COVID-19 under the CMMID group authorship.&#xA;Evans B, Keiser O, Kaiser L, Jombart T (2023) Analysis of global routine immunisation coverage shows disruption and stagnation during the first two-years of the COVID-19 pandemic with tentative recovery in 2022.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://thibautjombart.netlify.com/contact/</link>
+      <link>https://thibautjombart.netlify.app/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://thibautjombart.netlify.com/contact/</guid>
+      <guid>https://thibautjombart.netlify.app/contact/</guid>
       <description>Email This is the best way to contact me: thibautjombart@gmail.com.&#xA;Imperial College London Note that I work remotely and may not access my physical mails often.&#xA;Department of Infectious Disease Epidemiology&#xA;School of Public Health, Imperial College London&#xA;St Mary’s Campus, Norfolk Place&#xA;London W2 1PG&#xA;United Kingdom</description>
     </item>
     <item>
       <title>Why go open?</title>
-      <link>https://thibautjombart.netlify.com/post/open_publishing/</link>
+      <link>https://thibautjombart.netlify.app/post/open_publishing/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
-      <guid>https://thibautjombart.netlify.com/post/open_publishing/</guid>
+      <guid>https://thibautjombart.netlify.app/post/open_publishing/</guid>
       <description>I think the first time I ranted publicly about publishing was during Epidemics6. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: transparent, free, reproducible science seems to be the way forward. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the publication of peer reviewed papers.</description>
     </item>
     <item>
       <title>Ebola outbreak: what can we say with limited data?</title>
-      <link>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</link>
+      <link>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
-      <guid>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</guid>
+      <guid>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</guid>
       <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.&#xA;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
     </item>
   </channel>
