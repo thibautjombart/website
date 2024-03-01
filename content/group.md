@@ -5,25 +5,21 @@ type = "about"
 weight = 3
 +++
 
+Mine is a virtual 'group', as we all live in different countries. I usually supervise no more than 3 people (ideally one or two) at any given time. But do get in touch if you would like to discuss a research project.
+
+
 
 ### Current members
 
-- Dr Tim Taylor (Research Fellow LSHTM, 2020-)
-- Amy Dighe (PhD student, ICL, 2017-)
-- Bethany Evans (MSc Student LSHTM, 2021-)
-
-<!-- This shit no longer works:  -->
-<!-- <div class="member"> -->
-<!-- <img src="/images/amy-dighe.jpg"> <font class="title">Amy Dighe</font> -->
-<!-- Amy started her PhD in September 2017, in a co-supervision with <a href="https://www.imperial.ac.uk/people/neil.ferguson"> Neil Ferguson</a>. Her work is dedicated to modelling the dynamics of Middle-East Respiratory Syndrome Coronavirus (MERS-CoV) infections, with an emphasis on control strategies. -->
-<!-- </div> -->
-
-
+- Bethany Evans (PhD student, University of Geneva, 2021-); co-supervised with Olivia Keiser and Laurent Kaiser
+- Cyril Geismar (PhD student, Imperial College London, 2021-); co-supervised with Anne Cori and Peter White
 
 
 
 ### Alumni
 
+- Dr Tim Taylor (Research Fellow LSHTM, 2020-2021)
+- Amy Dighe (PhD student, ICL, 2017-2020)
 - Anne Suffel (MSc student, LSHTM, 2019-2020)
 - Emily Meyer (MSc student, LSHTM, 2019-2020)
 - Allegra Wilson (MSc student, LSHTM, 2019-2020)
