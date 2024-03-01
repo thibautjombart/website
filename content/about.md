@@ -12,13 +12,23 @@ spread, and how we can control them.
 
 I wear several hats, including:
 
-* Associate Professor in Outbreak Analytics at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk)
 * Senior Lecturer in Genetic Analysis at [Imperial College London](https://www.imperial.ac.uk/)
+* Consultant in Outbreak Analytics and Epidemics Modelling
+* Extreme metal vocalist and mandolin player
+* Since 2023, volunteering in various non-profit organizations takes about half
+  of my time
+
+Other hats I used to wear include:
+
+* Software Design and Implementation Lead for _Epiverse_, at Data.org
+* Associate Professor in Outbreak Analytics at the [London School of Hygiene and Tropical Medicine](https://www.lshtm.ac.uk), 2018-2022
+* Member of the advisory group for COVID-19 modelling, [SPI-M](https://www.gov.uk/government/publications/scientific-advisory-group-for-emergencies-sage-coronavirus-covid-19-response-membership/list-of-participants-of-sage-and-related-sub-groups#scientific-pandemic-influenza-group-on-modelling-spi-m), in the UK
+* Founder and President of the R Epidemics Consortium
+([RECON](https://www.repidemicsconsortium.org)), an NGO for the development of
+free data analytics resources for health emergencies, 2016-2021
+* Member of the [UK Public Health Rapid Support Team](https://www.lshtm.ac.uk/UKPHRST), 2018-2021
 * WHO consultant and member of the WHO COVID-19 analytics team
-* A member of the [UK Public Health Rapid Support Team](https://www.lshtm.ac.uk/UKPHRST)
-* Founder and current President of the R Epidemics Consortium ([RECON](https://www.repidemicsconsortium.org)), an NGO for
-the development of free data analytics resources for health emergencies
-* Extreme metal vocalist (currently innactive).
+
 
 You can find my CV [here](https://github.com/thibautjombart/cv/raw/master/cv.pdf), and my PhD thesis (in French) [there](/data/thesis.pdf).
 
@@ -38,14 +48,14 @@ robust estimations of transmissibility and the use of branching processes for
 short term incidence forecasting.
 
 I regularly deploy to outbreak responses in the field, or close to it. In 2019,
-I will have spent a total of 6 months in North Kivu, DRC, for the response to
+I spent a total of 6 months in North Kivu, DRC, for the response to
 the **Ebola** outbreak. I set up the analytics pipelines used first in Béni, then in
 Goma for informing the leadership of the response on various aspects of the
-outbreak in real time. Since February 2020, I have been working full-time on
+outbreak in real time. From February 2020 to late 2021, I was working full-time on
 **COVID-19**, setting up data pipelines for the
 [CMMID](https://www.lshtm.ac.uk/research/centres/centre-mathematical-modelling-infectious-diseases)
-group at LSHTM, and developing statistical approaches for informing the
-response in the UK alongside many other members of [SPI-M](https://www.gov.uk/government/publications/spi-m-publish-updated-modelling-summary).
+group at LSHTM, developing statistical approaches for informing the
+response in the UK alongside many other members of [SPI-M](https://www.gov.uk/government/publications/spi-m-publish-updated-modelling-summary), as well as for the COVID-19 analytics team at the WHO.
 
 
 
