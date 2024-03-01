@@ -7,28 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://thibautjombart.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://thibautjombart.netlify.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why go open?</title>
       <link>https://thibautjombart.netlify.com/post/open_publishing/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
-      
       <guid>https://thibautjombart.netlify.com/post/open_publishing/</guid>
       <description>I think the first time I ranted publicly about publishing was during Epidemics6. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: transparent, free, reproducible science seems to be the way forward. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the publication of peer reviewed papers.</description>
     </item>
-    
     <item>
       <title>Ebola outbreak: what can we say with limited data?</title>
       <link>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
-      
       <guid>https://thibautjombart.netlify.com/post/ebola_simulations_2018/</guid>
-      <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.
-On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
+      <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.&#xA;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
     </item>
-    
   </channel>
 </rss>

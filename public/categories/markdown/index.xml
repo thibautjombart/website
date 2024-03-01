@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Thibaut Jombart website</title>
+    <title>Markdown on Thibaut Jombart website</title>
     <link>https://thibautjombart.netlify.com/categories/markdown/</link>
-    <description>Recent content in markdown on Thibaut Jombart website</description>
+    <description>Recent content in Markdown on Thibaut Jombart website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://thibautjombart.netlify.com/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://thibautjombart.netlify.com/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why go open?</title>
       <link>https://thibautjombart.netlify.com/post/open_publishing/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
-      
       <guid>https://thibautjombart.netlify.com/post/open_publishing/</guid>
       <description>I think the first time I ranted publicly about publishing was during Epidemics6. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: transparent, free, reproducible science seems to be the way forward. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the publication of peer reviewed papers.</description>
     </item>
-    
   </channel>
 </rss>
