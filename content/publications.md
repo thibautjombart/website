@@ -9,42 +9,59 @@ weight = 10
 
 ### Statistics
 
-These were last updated on the 10-08-2021.
+These were last updated on the 01-03-2024.
 
 Web of science:
-- citations: 14,069
-- h-index: 40
+- citations: 15,570
+- h-index: 46
 
 
 Google scholar:
-- citations: 25,137
-- h-index: 55
-- h10-index: 94
+- citations: 40,144
+- h-index: 65
+- h10-index: 108
 
 
 
 
 ### List of publications
 
-This list was last updated on the 10-08-2021. It does not include the (many)
+This list was last updated on the 01-01-2024. It does not include the (many)
 papers on COVID-19 under the CMMID group authorship.
 
-* Brooks-Pollock E, Danon L, **Jombart T**, Pellis L. (2021) Modelling that shaped the early COVID-19 pandemic response in the UK. Philos Trans R Soc Lond B Biol Sci. 2021;376: 20210001. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2021.0001">https://doi.org/10.1098/rstb.2021.0001</a>
 
-* **Jombart T**, Ghozzi S, Schumacher D, Taylor TJ, Leclerc QJ, Jit M, et al. (2021) Real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection. Philos Trans R Soc Lond B Biol Sci. 2021;376: 20200266.<a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0266">https://doi.org/10.1098/rstb.2020.0266</a>
+* Evans B, Keiser O, Kaiser L, **Jombart T** (2023) Analysis of global routine immunisation coverage shows disruption and stagnation during the first two-years of the COVID-19 pandemic with tentative recovery in 2022. _Vaccine X_ 100383
 
-* Campbell F, Archer B, Laurenson-Schafer H, Jinnai Y, Konings F, Batra N, Pavlin B, Vandemale K, Van Kerkhove M, **Jombart T** et al. (2021) Increased transmissibility and global spread of SARS-CoV-2 variants of concern as at June 2021. Euro Surveill. 2021;26. <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.24.2100509">https://doi.org/10.2807/1560-7917.ES.2021.26.24.2100509</a>
+* Qian GY, Edmunds JW, Bausch DG, **Jombart T** (2023) A mathematical model of Marburg virus disease outbreaks and the potential role of vaccination in control. _BMC Medicine_ 21(1):439.
 
-* Leclerc QJ, Nightingale ES, Abbott S, CMMID COVID-19 Working Group, **Jombart T** (2021) Analysis of temporal trends in potential COVID-19 cases reported through NHS Pathways England. Scientific Reports. 2021;11: 7106. <a href="https://www.nature.com/articles/s41598-021-86266-3">https://doi.org/10.1038/s41598-021-86266-3</a>
+* Geismar C, Nguyen V, Fragaszy E, Shrotri M, Navaratnam AMD, Beale S, Byrne TE, Fong  WLE, Yavlinsky A, Kovar J, Hoskins S, Braithwaite I, Aldridge RW, Hayward AC, White PJ, **Jombart T**, Cori A (2023) Bayesian reconstruction of SARS-CoV-2 transmissions highlights substantial proportion of negative serial intervals. _Epidemics_ 100713
+
+* Zeng W, Mobula L, Samaha H, Yao M, Ahuka S, Wilkinson T, **Jombart T** et al. (2023) Cost of public health interventions to respond to the 10th Ebola outbreak in the Democratic Republic of the Congo. _BMJ Global Health_ 8(10):e012660
+
+* Qian GY, **Jombart T**, Edmunds JW (2023) Assessing the feasibility of Phase 3 vaccine trials against Marburg Virus Disease: A modelling study. _Vaccine X_ 14:100321.
+
+* Evans B, **Jombart T** (2022) Worldwide routine immunisation coverage regressed during the first year of the COVID-19 pandemic. _Vaccine_ 40(26):3531-3535. doi: 10.1016/j.vaccine.2022.01.044
+
+* **Jombart T** (2021) Why development of outbreak analytics tools should be valued, supported, and funded. _Lancet ID_ 21:4, 458-459.
+
+* Abbas M, Robalo Nunes T, Cori A, Cordey S, Laubscher F, Baggio S, **Jombart T**, et al. (2021) Explosive nosocomial outbreak of SARS-CoV-2 in a rehabilitation clinic: the limits of genomics for outbreak reconstruction. _J Hosp Infect_ 117:124-134
+	
+* Brooks-Pollock E, Danon L, **Jombart T**, Pellis L. (2021) Modelling that shaped the early COVID-19 pandemic response in the UK. _Philos Trans R Soc Lond B Biol Sci_. 2021;376: 20210001. <a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2021.0001">https://doi.org/10.1098/rstb.2021.0001</a>
+
+* **Jombart T**, Ghozzi S, Schumacher D, Taylor TJ, Leclerc QJ, Jit M, et al. (2021) Real-time monitoring of COVID-19 dynamics using automated trend fitting and anomaly detection. _Philos Trans R Soc Lond B Biol Sci_. 2021;376: 20200266.<a href="https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0266">https://doi.org/10.1098/rstb.2020.0266</a>
+
+* Campbell F, Archer B, Laurenson-Schafer H, Jinnai Y, Konings F, Batra N, Pavlin B, Vandemale K, Van Kerkhove M, **Jombart T** et al. (2021) Increased transmissibility and global spread of SARS-CoV-2 variants of concern as at June 2021. _Euro Surveill_. 2021;26. <a href="https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2021.26.24.2100509">https://doi.org/10.2807/1560-7917.ES.2021.26.24.2100509</a>
+
+* Leclerc QJ, Nightingale ES, Abbott S, CMMID COVID-19 Working Group, **Jombart T** (2021) Analysis of temporal trends in potential COVID-19 cases reported through NHS Pathways England. _Scientific Reports_. 2021;11: 7106. <a href="https://www.nature.com/articles/s41598-021-86266-3">https://doi.org/10.1038/s41598-021-86266-3</a>
 
 * Carter SE, Gobat N, Pfaffmann Zambruni J, Bedford J, van Kleef E, **Jombart T**, et al. (2021)
-What questions we should be asking about COVID-19 in humanitarian settings: perspectives from the Social Sciences Analysis Cell in the Democratic Republic of the CongoBMJ Global Health 2020;5:e003607. <a href="https://gh.bmj.com/content/5/9/e003607">10.1136/bmjgh-2020-003607</a>
+What questions we should be asking about COVID-19 in humanitarian settings: perspectives from the Social Sciences Analysis Cell in the Democratic Republic of the Congo. _BMJ Global Health_ 2020;5:e003607. <a href="https://gh.bmj.com/content/5/9/e003607">10.1136/bmjgh-2020-003607</a>
 
 * Rees EM, Nightingale ES, Jafari Y, Waterlow NR, Clifford S, B Pearson CA, **Jombart T** et al. (2020) COVID-19 length of hospital stay: a systematic review and data synthesis. BMC Med. 2020;18: 270.<a href="https://doi.org/10.1186/s12916-020-01726-3">https://doi.org/10.1186/s12916-020-01726-3</a> 
 
-* Mobula LM, Samaha H, Yao M, Gueye AS, Diallo B, Umutoni C, Anoko J, Lokonga JP, Minikulu L, Mossoko M, Bruni E, Carter S, **Jombart T**, et al. (2020) Recommendations for the COVID-19 Response at the National Level Based on Lessons Learned from the Ebola Virus Disease Outbreak in the Democratic Republic of the Congo. The American Journal of Tropical Medicine and Hygiene: 12–17. doi:10.4269/ajtmh.20-0256
+* Mobula LM, Samaha H, Yao M, Gueye AS, Diallo B, Umutoni C, Anoko J, Lokonga JP, Minikulu L, Mossoko M, Bruni E, Carter S, **Jombart T**, et al. (2020) Recommendations for the COVID-19 Response at the National Level Based on Lessons Learned from the Ebola Virus Disease Outbreak in the Democratic Republic of the Congo. _The American Journal of Tropical Medicine and Hygiene_: 12–17. doi:10.4269/ajtmh.20-0256
 
-* Parisi A, Phuong TLT, Mather AE, **Jombart T**, Tuyen HT, Lan NPH, et al. (2020) The role of animals as a source of antimicrobial resistant nontyphoidal Salmonella causing invasive and non-invasive human disease in Vietnam. Infect Genet Evol. 2020;85: 104534.
+* Parisi A, Phuong TLT, Mather AE, **Jombart T**, Tuyen HT, Lan NPH, et al. (2020) The role of animals as a source of antimicrobial resistant nontyphoidal Salmonella causing invasive and non-invasive human disease in Vietnam. _Infect Genet Evol._ 2020;85: 104534.
 
 * Jit M, **Jombart T**, Nightingale ES, et al. 2020. Estimating number of cases and spread of coronavirus disease (COVID-19) using critical care admissions, United Kingdom, February to March 2020. Euro Surveill. 25(18):2000632. <a href="https://doi.org/10.2807/1560-7917.ES.2020.25.18.2000632">doi:10.2807/1560-7917.ES.2020.25.18.2000632</a>
 
