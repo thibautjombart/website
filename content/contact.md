@@ -10,27 +10,16 @@ weight = 20
 This is the best way to contact me: 
 [thibautjombart@gmail.com](mailto:thibautjombart@gmail.com).
 
-Note that I work mostly remotely and will not have access to posts frequently.
-
-
-#### London School of Hygiene and Tropical Medicine
-
-Department of Infectious Disease Epidemiology<br>
-London School of Hygiene and Tropical Medicine<br>
-Keppel Street<br>
-London WC1E 7HT<br>
-United Kingdom
-
 
 #### Imperial College London
+
+Note that I work remotely and may not access my physical mails often.
 
 Department of Infectious Disease Epidemiology<br>
 School of Public Health, Imperial College London<br>
 St Mary’s Campus, Norfolk Place<br>
 London W2 1PG<br>
 United Kingdom<br>
-
-
 
 
 <br>
