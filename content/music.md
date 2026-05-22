@@ -13,11 +13,13 @@ running the solo project 'Fuktardz', where octavo mandolins replace guitars.
 
 All this music is distributed under CC-BY licence (free to reuse and redistribute, but acknowledging the source material).
 
-- Riviera (2026), Single, featured on 'Make Noise not War vol. 8', Grindwar Records 
+- Riviera (2026), Single, featured on 'Make Noise not War vol. 8', Grindwar Records:
+
 [Youtube](https://www.youtube.com/watch?v=O52macGWWe4&t=306s) / 
 [Bandcamp](https://grindwarrecords.bandcamp.com/track/fuktardz-riviera-france)
 
-- Ultima Ratio Regum (2025), EP, Grindwar Records
+- Ultima Ratio Regum (2025), EP, Grindwar Records: 
+
 [Youtube](https://www.youtube.com/watch?v=_PCWSAdTdUY) / 
 [Spotify](https://open.spotify.com/album/0seK9jmH2jFp93Hez3bTeW?si=ADyIb08pQaaSV0PxL83xyg) /
 [Deezer](https://link.deezer.com/s/33la6nBTLHWTnOYxTBvjf) /
