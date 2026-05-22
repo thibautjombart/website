@@ -25,40 +25,48 @@ All this music is distributed under CC-BY licence (free to reuse and redistribut
 [Deezer](https://link.deezer.com/s/33la6nBTLHWTnOYxTBvjf) /
 [Bandcamp](https://grindwarrecords.bandcamp.com/album/fuktardz-ultima-ratio-regum-ep)
 
-- Ecopocalypse Now (2024), Single, Grindwar Records
-    + [Youtube](https://www.youtube.com/watch?v=kdSx9SUY_UY)
-    + [Spotify](https://open.spotify.com/album/4YboPvCB4M94L1mlrtvCSw?si=q0jy4Hz2TH2CSDWFqzqjZQ)
-    + [Deezer](https://link.deezer.com/s/33la493gxBHQJTVu8j4pn)
-    + [Bandcamp](https://grindwarrecords.bandcamp.com/track/fuktardz-ecopocalypse-now-single)
+- Ecopocalypse Now (2024), Single, Grindwar Records:
 
-- Warming Up (2023), EP, Grindwar Records 
-    + [Youtube](https://www.youtube.com/watch?v=fbqOVO7eXow) 
-    + [Spotify](https://open.spotify.com/album/36zTo4d3T3quOco5ESjFPF?si=-TOMZlmZTQiuFEVxYfKg9Q) 
-    + [Deezer](https://link.deezer.com/s/33la0aefSb2bIZEqPu2HJ)
-    + [Bandcamp](https://grindwarrecords.bandcamp.com/album/warming-up-full-ep)
+[Youtube](https://www.youtube.com/watch?v=kdSx9SUY_UY) /
+[Spotify](https://open.spotify.com/album/4YboPvCB4M94L1mlrtvCSw?si=q0jy4Hz2TH2CSDWFqzqjZQ) /
+[Deezer](https://link.deezer.com/s/33la493gxBHQJTVu8j4pn) / 
+[Bandcamp](https://grindwarrecords.bandcamp.com/track/fuktardz-ecopocalypse-now-single)
+
+- Warming Up (2023), EP, Grindwar Records:
+
+[Youtube](https://www.youtube.com/watch?v=fbqOVO7eXow) /
+[Spotify](https://open.spotify.com/album/36zTo4d3T3quOco5ESjFPF?si=-TOMZlmZTQiuFEVxYfKg9Q) /
+[Deezer](https://link.deezer.com/s/33la0aefSb2bIZEqPu2HJ) / 
+[Bandcamp](https://grindwarrecords.bandcamp.com/album/warming-up-full-ep)
 
 
 ### The Brood (2014-2018)
 
-- Split EP The Brood/Kittengrinda (2017)
-    + [Youtube](https://www.youtube.com/watch?v=GfJUb_DT4KQ)
-    + [Spotify](https://open.spotify.com/album/1HFyqDsb4JqDKQgV4cDhx4?si=WFuThEw-ROqXPqha8mk3EA)
-    + [Bandcamp](https://thebrooduk.bandcamp.com/album/the-brood-kittengrinda)
+- Split EP The Brood/Kittengrinda (2017):
 
-- The Truth Behind (2017), Full Album, Give Praise Records
-    + [Youtube](https://www.youtube.com/watch?v=0AlUanaHQpM)
-    + [Spotify](https://open.spotify.com/album/2BXkKMNdeNzffGg2V8utOB?si=JTlMDhjeTeySZTnPnXuDPQ)
-    + [Deezer](https://link.deezer.com/s/33lajgiqzreCYDzFYt76F)
-    + [Bandcamp](https://thebrooduk.bandcamp.com/album/the-truth-behind-2)
+[Youtube](https://www.youtube.com/watch?v=GfJUb_DT4KQ) / 
+[Spotify](https://open.spotify.com/album/1HFyqDsb4JqDKQgV4cDhx4?si=WFuThEw-ROqXPqha8mk3EA) / 
+[Bandcamp](https://thebrooduk.bandcamp.com/album/the-brood-kittengrinda)
+
+- The Truth Behind (2017), Full Album, Give Praise Records:
+
+[Youtube](https://www.youtube.com/watch?v=0AlUanaHQpM) / 
+[Spotify](https://open.spotify.com/album/2BXkKMNdeNzffGg2V8utOB?si=JTlMDhjeTeySZTnPnXuDPQ) / 
+[Deezer](https://link.deezer.com/s/33lajgiqzreCYDzFYt76F) / 
+[Bandcamp](https://thebrooduk.bandcamp.com/album/the-truth-behind-2)
     
-- The Hammer, (2016), Single, Motorhead Cover
-   + [Bandcamp](https://thebrooduk.bandcamp.com/track/the-hammer)
-   
-- Swallowed by the Earth (2014), Single 
-    + [Bandcamp](https://thebrooduk.bandcamp.com/album/swallowed-by-the-earth-single)
+- The Hammer, (2016), Single, Motorhead Cover:
 
-- The Brood (2014), Demo EP
-    + [Bandcamp](https://thebrooduk.bandcamp.com/album/the-brood)
+[Bandcamp](https://thebrooduk.bandcamp.com/track/the-hammer)
+   
+- Swallowed by the Earth (2014), Single:
+
+[Bandcamp](https://thebrooduk.bandcamp.com/album/swallowed-by-the-earth-single)
+
+- The Brood (2014), Demo EP:
+
+[Bandcamp](https://thebrooduk.bandcamp.com/album/the-brood)
+
 <br>
 <br>
 <br>
