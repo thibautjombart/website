@@ -4,7 +4,7 @@
     <title>Simulations on Thibaut Jombart website</title>
     <link>https://thibautjombart.netlify.app/tags/simulations/</link>
     <description>Recent content in Simulations on Thibaut Jombart website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 May 2018 14:15:00 -0600</lastBuildDate>
     <atom:link href="https://thibautjombart.netlify.app/tags/simulations/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
       <guid>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</guid>
-      <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.&#xA;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
+      <description>&lt;div id=&#34;context&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: this blog post only represents my views, and not that of my institution or my collaborators.&lt;/p&gt;&#xA;&lt;p&gt;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has &lt;a href=&#34;http://www.who.int/csr/don/10-may-2018-ebola-drc/en/&#34;&gt;notified the WHO&lt;/a&gt; of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce. As of the writing time of the post, WHO has published a &lt;a href=&#34;http://www.who.int/csr/don/17-may-2018-ebola-drc/en/&#34;&gt;timeline of counts of cases&lt;/a&gt; by dates of reporting, with a total of 27 cases (including confirmed, probable or suspected cases), reported over a period of 10 days (5th - 15th May 2018).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

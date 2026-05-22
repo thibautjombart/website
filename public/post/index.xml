@@ -4,7 +4,7 @@
     <title>Posts on Thibaut Jombart website</title>
     <link>https://thibautjombart.netlify.app/post/</link>
     <description>Recent content in Posts on Thibaut Jombart website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Sep 2018 14:15:00 -0600</lastBuildDate>
     <atom:link href="https://thibautjombart.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://thibautjombart.netlify.app/post/open_publishing/</link>
       <pubDate>Wed, 05 Sep 2018 14:15:00 -0600</pubDate>
       <guid>https://thibautjombart.netlify.app/post/open_publishing/</guid>
-      <description>I think the first time I ranted publicly about publishing was during Epidemics6. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: transparent, free, reproducible science seems to be the way forward. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the publication of peer reviewed papers.</description>
+      <description>&lt;p&gt;I think the first time I ranted publicly about publishing was during &lt;a href=&#34;http://www.globaleventslist.elsevier.com/events/2017/11/epidemics-6-6th-international-conference-on-infectious-disease-dynamics/&#34;&gt;Epidemics6&lt;/a&gt;. At the time, I was making a plea for open software practices in science, which most people seem now to agree on: &lt;em&gt;transparent, free, reproducible science seems to be the way forward&lt;/em&gt;. Practicing my talk for this conference organised by a large publishing company, I realised these ideals were thrown away in one of the most important aspects in a researcher’s life, the &lt;em&gt;publication&lt;/em&gt; of peer reviewed papers. Back then, I tried to outline quickly why I thought we could do better and added a few slides to &lt;a href=&#34;https://github.com/thibautjombart/talks/blob/master/Epidemics6/Epidemics2017_TJ_1.1.pdf&#34;&gt;my talk&lt;/a&gt;, which then caused a bit of laughter, and some interesting follow-up conversations. In this post I’ll try to briefly explain why I think the current dominating publishing pratice is not working, and how we can make it better.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ebola outbreak: what can we say with limited data?</title>
       <link>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</link>
       <pubDate>Mon, 21 May 2018 14:15:00 -0600</pubDate>
       <guid>https://thibautjombart.netlify.app/post/ebola_simulations_2018/</guid>
-      <description>Context Disclaimer: this blog post only represents my views, and not that of my institution or my collaborators.&#xA;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has notified the WHO of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce.</description>
+      <description>&lt;div id=&#34;context&#34; class=&#34;section level2&#34;&gt;&#xA;&lt;h2&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: this blog post only represents my views, and not that of my institution or my collaborators.&lt;/p&gt;&#xA;&lt;p&gt;On the 8th May 2018, the Ministry of Health of the Democratic Republic of the Congo (DRC) has &lt;a href=&#34;http://www.who.int/csr/don/10-may-2018-ebola-drc/en/&#34;&gt;notified the WHO&lt;/a&gt; of two confirmed cases of Ebola virus disease (EVD) reported in the Bikoro health zone, Equateur province. While the WHO and the international community seems to have reacted very quickly to the situation, data in the early stages of an outbreak are always scarce. As of the writing time of the post, WHO has published a &lt;a href=&#34;http://www.who.int/csr/don/17-may-2018-ebola-drc/en/&#34;&gt;timeline of counts of cases&lt;/a&gt; by dates of reporting, with a total of 27 cases (including confirmed, probable or suspected cases), reported over a period of 10 days (5th - 15th May 2018).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
