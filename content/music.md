@@ -9,19 +9,19 @@ I am an extreme metal vocalist and mandolin player. I used to be the frontman of
 London-based grinding hardcore band The Brood (2014-2018). I am currently 
 running the solo project 'Fuktardz', where octavo mandolins replace guitars.
 
-### Fuktardz (2023-)
+### Fuktardz (since 2023)
 
 All this music is distributed under CC-BY licence (free to reuse and redistribute, but acknowledging the source material).
 
-- Riviera (2026), Single, featured on 'Make Noise not War vol. 8', Grindwar Records
-    + [Youtube](https://www.youtube.com/watch?v=O52macGWWe4&t=306s)
-    + [Bandcamp](https://grindwarrecords.bandcamp.com/track/fuktardz-riviera-france)
+- Riviera (2026), Single, featured on 'Make Noise not War vol. 8', Grindwar Records 
+[Youtube](https://www.youtube.com/watch?v=O52macGWWe4&t=306s) / 
+[Bandcamp](https://grindwarrecords.bandcamp.com/track/fuktardz-riviera-france)
 
 - Ultima Ratio Regum (2025), EP, Grindwar Records
-    + [Youtube](https://www.youtube.com/watch?v=_PCWSAdTdUY)
-    + [Spotify](https://open.spotify.com/album/0seK9jmH2jFp93Hez3bTeW?si=ADyIb08pQaaSV0PxL83xyg)
-    + [Deezer](https://link.deezer.com/s/33la6nBTLHWTnOYxTBvjf)
-    + [Bandcamp](https://grindwarrecords.bandcamp.com/album/fuktardz-ultima-ratio-regum-ep)
+[Youtube](https://www.youtube.com/watch?v=_PCWSAdTdUY) / 
+[Spotify](https://open.spotify.com/album/0seK9jmH2jFp93Hez3bTeW?si=ADyIb08pQaaSV0PxL83xyg) /
+[Deezer](https://link.deezer.com/s/33la6nBTLHWTnOYxTBvjf) /
+[Bandcamp](https://grindwarrecords.bandcamp.com/album/fuktardz-ultima-ratio-regum-ep)
 
 - Ecopocalypse Now (2024), Single, Grindwar Records
     + [Youtube](https://www.youtube.com/watch?v=kdSx9SUY_UY)
