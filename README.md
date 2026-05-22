@@ -3,7 +3,7 @@
 
 For the website itself, go to:
 
-[https://thibautjombart.netlify.com](https://thibautjombart.netlify.com)
+[https://thibautjombart.netlify.app/](https://thibautjombart.netlify.app/)
 
 
 # Updating the content
