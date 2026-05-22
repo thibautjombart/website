@@ -12,9 +12,10 @@ spread, and how we can control them.
 
 I wear several hats, including:
 
-* Senior Lecturer in Genetic Analysis at [Imperial College London](https://www.imperial.ac.uk/)
+* Associate Professor in Outbreak Analytics at [Imperial College London](https://www.imperial.ac.uk/)
 * Consultant in Outbreak Analytics and Epidemics Modelling
 * Extreme metal vocalist and mandolin player
+* Founder of the non-profit Café [Le Drogol](https://le-drogol.fr/)
 * Since 2023, volunteering in various non-profit organizations takes about half
   of my time
 
@@ -39,15 +40,17 @@ You can find my CV [here](https://github.com/thibautjombart/cv/raw/master/cv.pdf
 I am interested in developing a holistic approach to outbreak data analysis,
 with a strong focus on emergency outbreak response context, in which analytics
 directly inform public health decision making. Beyond infectious disease
-modelling techniques used in academia, I focus on the development of operational
-analysis tools, including reproducible and auditable data cleaning, interactive
+modelling techniques used in academia, I have worked on the development of operational
+analysis tools, including reproducible data cleaning, interactive
 data visualisation tools, and automated report generation systems. On a more
 theoretical side, I am also interested in the estimation of key delay
-distributions (e.g. incubation period, serial interval distribution), and in
-robust estimations of transmissibility and the use of branching processes for
-short term incidence forecasting.
+distributions (e.g. incubation period, serial interval distribution), in
+robust estimations of transmissibility, and the use of branching processes for
+short term incidence forecasting. More recently, I have been extensively involved
+in the development of stochastic meta-population models as tools for informing 
+preparedness and response planning.
 
-I regularly deploy to outbreak responses in the field, or close to it. In 2019,
+I have been deployed to several outbreak responses in the field, or close to it. In 2019,
 I spent a total of 6 months in North Kivu, DRC, for the response to
 the **Ebola** outbreak. I set up the analytics pipelines used first in Béni, then in
 Goma for informing the leadership of the response on various aspects of the

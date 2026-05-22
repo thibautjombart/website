@@ -9,17 +9,18 @@ weight = 10
 
 ### Statistics
 
-These were last updated on the 01-03-2024.
+These were last updated on the 22 May 2026.
 
 Web of science:
-- citations: 15,570
-- h-index: 46
+- publications: 101
+- citations: 23 586
+- h-index: 50
 
 
 Google scholar:
-- citations: 40,144
-- h-index: 65
-- h10-index: 108
+- citations: 49 432
+- h-index: 68
+- h10-index: 117
 
 
 
@@ -29,6 +30,17 @@ Google scholar:
 This list was last updated on the 01-01-2024. It does not include the (many)
 papers on COVID-19 under the CMMID group authorship.
 
+* **Jombart T**, Kada S, Chakraborty D, Redding DW, Abbate J (accepted) A stochastic meta-population model of Ebola virus disease transmission for informing public health decisions. _Epidemics_
+
+* Geismar C, White PJ, Cori A, **Jombart T** (accepted) A statistical framework for comparing epidemic forests. _PLoS Comp Biol._
+
+* Dighe A, **Jombart T**, Ferguson N (2025) Modelling transmission of Middle East respiratory syndrome coronavirus in camel populations and the potential impact of animal vaccination. _Nature Communications_ 16(1).
+
+* **Jombart T**, Zeng W, Yao M, Cori A, Ahuka-Mundeke S, Samaha H, et al. (2025) Contrasting the impact and cost-effectiveness of successive intervention strategies in response to Ebola in the Democratic Republic of the Congo, 2018-2020. _BMJ Glob Health_ 2025;10: e015822. 
+
+* Evans B, Kaiser L, Keiser O, **Jombart T** (2025) Pre-pandemic national immunisation programme strength and health workforce capacity improved routine immunisation resilience during the COVID-19 pandemic. _Public Health_ 246: 105813. 
+
+* Geismar C, White PJ, Cori A, **Jombart T** (2024) Sorting out assortativity: When can we assess the contributions of different population groups to epidemic transmission? _PLoS One_ 19: e0313037. 
 
 * Evans B, Keiser O, Kaiser L, **Jombart T** (2023) Analysis of global routine immunisation coverage shows disruption and stagnation during the first two-years of the COVID-19 pandemic with tentative recovery in 2022. _Vaccine X_ 100383
 

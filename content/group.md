@@ -5,19 +5,23 @@ type = "about"
 weight = 3
 +++
 
-Mine is a virtual 'group', as we all live in different countries. I usually supervise no more than 3 people (ideally one or two) at any given time. But do get in touch if you would like to discuss a research project.
+Mine is a virtual 'group', as we all live in different countries. I usually
+supervise no more than 3 people (ideally one or two) at any given time. But do
+get in touch if you would like to discuss a research project.
 
 
 
 ### Current members
 
-- Bethany Evans (PhD student, University of Geneva, 2021-); co-supervised with Olivia Keiser and Laurent Kaiser
-- Cyril Geismar (PhD student, Imperial College London, 2021-); co-supervised with Anne Cori and Peter White
+- Maxime Reygnier (AgroParisTech, Cézure, 2026)
+- Camille Schneider (PhD student, Pasteur, 2025-); co-supervised with Lulla Opatowski (lead) and Anne Cori
 
 
 
 ### Alumni
 
+- Bethany Evans (PhD student, University of Geneva, 2021-2025); co-supervised with Olivia Keiser and Laurent Kaiser
+- Cyril Geismar (PhD student, Imperial College London, 2021-2025); co-supervised with Anne Cori and Peter White
 - Dr Tim Taylor (Research Fellow LSHTM, 2020-2021)
 - Amy Dighe (PhD student, ICL, 2017-2020)
 - Anne Suffel (MSc student, LSHTM, 2019-2020)
