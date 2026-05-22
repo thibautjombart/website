@@ -16,8 +16,10 @@ I wear several hats, including:
 * Consultant in Outbreak Analytics and Epidemics Modelling
 * Extreme metal vocalist and mandolin player
 * Founder of the non-profit Café [Le Drogol](https://le-drogol.fr/)
-* Since 2023, volunteering in various non-profit organizations takes about half
-  of my time
+* City Counselor, Saint-Privat-du-Fau
+
+Since 2023, I no longer work full-time to volunteer in various non-profit 
+organizations.
 
 Other hats I used to wear include:
 
